@@ -28,6 +28,7 @@ This project follows a **Hazina-style** secure environment variable approach (se
    - All `CLOUDFLARE_R2_*` values
    - `NEXT_PUBLIC_SITE_URL`
    - `RESEND_API_KEY` (optional but recommended for /apply emails)
+   - `AI_GATEWAY_API_KEY` (optional, for Vercel AI Gateway)
 
 3. **Important**: `.env*` files are gitignored. Never commit real secrets.
 

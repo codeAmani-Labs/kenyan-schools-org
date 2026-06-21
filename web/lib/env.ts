@@ -72,6 +72,9 @@ export const env = {
   // Email (Resend) - for contributor notifications
   RESEND_API_KEY: optional(process.env.RESEND_API_KEY),
 
+  // Vercel AI Gateway (for AI features, model routing, and usage analytics)
+  AI_GATEWAY_API_KEY: optional(process.env.AI_GATEWAY_API_KEY),
+
   // Porkbun DNS (for managing records to connect domain to Vercel)
   PORKBUN_API_KEY: optional(process.env.PORKBUN_API_KEY),
   PORKBUN_SECRET_KEY: optional(process.env.PORKBUN_SECRET_KEY),
