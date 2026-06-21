@@ -18,6 +18,6 @@ export async function GET(
   return NextResponse.json({
     school,
     generated: new Date().toISOString(),
-    source: 'https://kenyanschool.org/api/schools',
+    source: 'https://kenyanschools.org/api/schools',
   });
 }

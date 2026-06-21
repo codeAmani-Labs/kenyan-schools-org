@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 export default function ContributePage() {
   const [mode, setMode] = useState<'edit' | 'new'>('edit');
@@ -161,6 +162,8 @@ export default function ContributePage() {
           Prefer working directly in code? The data lives in <code className="font-mono">data/schools.json</code>. Open a Pull Request on the repository. We review sources the same way Wikipedia does.
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

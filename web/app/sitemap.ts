@@ -45,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.5,
     },
+    {
+      url: `${baseUrl}/counties`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.65,
+    },
   ];
 
   // Dynamic school pages - focus on county geolocations
@@ -63,18 +69,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  // Optional: County-focused entries for better geo SEO
-  // We can derive unique counties and create virtual emphasis (though pages are school-based)
+  // Dedicated county pages for better topical and geo SEO organization (per 2026 Google guidance)
   const uniqueCounties = [...new Set(schools.map(s => s.county))];
   const countyRoutes: MetadataRoute.Sitemap = uniqueCounties.map((county) => {
-    // Link to directory filtered by county (client-side but good for crawling intent)
-    // For true dynamic pages we'd create /counties/[county], but we emphasize via school metadata + sitemap
     const encodedCounty = encodeURIComponent(county);
     return {
-      url: `${baseUrl}/directory?county=${encodedCounty}`,
+      url: `${baseUrl}/counties/${encodedCounty}`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
-      priority: 0.65,
+      priority: 0.7,
     };
   });
 

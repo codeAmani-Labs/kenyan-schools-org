@@ -7,6 +7,7 @@ import schoolsData from '@/data/schools.json';
 import DirectoryExplorer from './components/DirectoryExplorer';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import ThemeHint from './components/ThemeHint';
+import Footer from './components/Footer';
 import { ArrowRight, MapPin, Award, Users } from 'lucide-react';
 
 // Hybrid data: JSON for directory performance, DB for contributions
@@ -40,6 +41,7 @@ export default function Home() {
 
           <div className="flex items-center gap-2 text-sm">
             <Link href="/schools" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">Index</Link>
+            <Link href="/counties" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">By County</Link>
             <Link href="/contributors" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">Contributors</Link>
             <Link href="/directory" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">Directory</Link>
             <Link href="/contribute" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">Contribute</Link>
@@ -167,16 +169,7 @@ export default function Home() {
       </div>
 
       {/* Premium Footer */}
-      <footer className="border-t border-white/10 py-9 text-xs text-[#666]">
-        <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-y-3 text-xs">
-          <div>© {new Date().getFullYear()} Kenyan Schools Directory v1.0.0 — Built & maintained by <a href="https://codeamanilabs.org/" target="_blank" className="text-[#c5a46e] hover:underline">CodeAmani Labs</a> (GitHub Org: https://github.com/codeAmani-Labs | Founder: codeAmani-Solutions (Barnabas Waweru)). Transparent public data.</div>
-          <div className="flex gap-x-6">
-            <Link href="/citations" className="hover:text-white">Citations</Link>
-            <Link href="/about" className="hover:text-white">About</Link>
-            <a href="https://github.com/codeAmani-Labs/kenyan-schools-org" target="_blank" className="hover:text-white">GitHub</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

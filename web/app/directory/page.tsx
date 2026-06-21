@@ -4,6 +4,7 @@ import schoolsData from '@/data/schools.json';
 import DirectoryExplorer from '../components/DirectoryExplorer';
 import ThemeSwitcher from '../components/ThemeSwitcher';
 import ThemeHint from '../components/ThemeHint';
+import Footer from '../components/Footer';
 
 // Static data for directory view (excellent UX + build without DB)
 // All mutations go through /api/suggest → Neon
@@ -26,6 +27,8 @@ export default function DirectoryPage() {
           <Link href="/" className="font-semibold">← Kenyan Schools <span className="text-xs text-[#c5a46e]">by CodeAmani Labs</span></Link>
           <div className="text-[#666]">/</div>
           <Link href="/schools" className="text-[#c5a46e] hover:underline">Index</Link>
+          <div className="text-[#666]">/</div>
+          <Link href="/counties" className="text-[#c5a46e] hover:underline">Counties</Link>
           <div className="text-[#666]">/</div>
           <Link href="/contributors" className="text-[#c5a46e] hover:underline">Contributors</Link>
           <div className="text-[#666]">/</div>
@@ -53,9 +56,7 @@ export default function DirectoryPage() {
         <DirectoryExplorer schools={schools} compact={false} />
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 py-14 text-xs text-[#666]">
-        Data sourced from public records. Additions and corrections welcome via the <Link href="/contribute" className="text-[#c5a46e]">contribute form</Link>.
-      </div>
+      <Footer />
     </div>
   );
 }

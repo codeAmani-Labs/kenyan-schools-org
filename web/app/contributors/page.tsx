@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import prisma from '@/lib/db';
+import Footer from '../components/Footer';
 
 export const dynamic = 'force-dynamic';
 
@@ -87,11 +88,10 @@ export default async function ContributorsPage() {
             Want to join? <Link href="/apply" className="text-[#c5a46e] underline">Apply to become a contributor</Link>. 
             Opt-in during the application to appear here.
           </p>
-          <p className="text-xs text-[#666] mt-2">
-            Built and maintained by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru)
-          </p>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

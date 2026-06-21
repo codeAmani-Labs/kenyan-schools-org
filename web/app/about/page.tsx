@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import ThemeHint from '../components/ThemeHint';
 import ThemeSwitcher from '../components/ThemeSwitcher';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'About | Kenyan Schools Directory - CodeAmani Labs',
@@ -58,15 +59,14 @@ export default function AboutPage() {
           <a href="https://github.com/codeAmani-Labs/kenyan-schools-org" target="_blank" className="rounded-full border border-white/30 px-7 py-3 hover:bg-white/5">View source on GitHub</a>
         </div>
 
-        <div className="mt-8 text-xs text-[#666]">
-          Version 1.0.0 • Built by CodeAmani Labs (Founder: codeAmani-Solutions (Barnabas Waweru)).
-        </div>
       </div>
 
       <ThemeSwitcher floating />
       <div className="hidden lg:block fixed top-20 right-6 z-40">
         <ThemeHint suggestedTheme="amethyst" description="Elegant for reading" />
       </div>
+
+      <Footer />
     </div>
   );
 }

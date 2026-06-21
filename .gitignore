@@ -38,3 +38,8 @@ Thumbs.db
 *.xlsx
 *.csv.bak
 .vercel
+
+# Internal dev tools (NOT committed - dev UI / backend only, requires local backend access)
+internal-dev/
+dev-internal/
+lighthouse-monitor/

@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import Link from 'next/link';
 import ApplyFormClient from './ApplyFormClient';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Apply to Become a Contributor | CodeAmani Labs',
@@ -43,6 +44,8 @@ export default function ApplyPage() {
           Already a contributor? <Link href="/contribute" className="text-[#c5a46e] underline">Suggest edits</Link>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

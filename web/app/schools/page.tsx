@@ -3,6 +3,7 @@ import Link from 'next/link';
 import SchoolsIndexClient from './SchoolsIndexClient';
 import ThemeSwitcher from '../components/ThemeSwitcher';
 import ThemeHint from '../components/ThemeHint';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Complete Index of All Kenyan Schools | CodeAmani Labs',
@@ -23,6 +24,7 @@ export default function SchoolsIndexPage() {
           </Link>
           <div className="flex items-center gap-6 text-sm font-medium">
             <Link href="/schools" className="hover:text-[#c5a46e]">Index</Link>
+            <Link href="/counties" className="hover:text-[#c5a46e]">By County</Link>
             <Link href="/contributors" className="hover:text-[#c5a46e]">Contributors</Link>
             <Link href="/directory" className="hover:text-[#c5a46e]">Directory</Link>
             <Link href="/apply" className="hover:text-[#c5a46e]">Apply</Link>
@@ -46,6 +48,14 @@ export default function SchoolsIndexPage() {
         <ThemeHint suggestedTheme="cream" description="Great for long lists & browsing" />
       </div>
 
+      <div className="mx-auto max-w-7xl px-6 pt-8 pb-4">
+        {/* Server-rendered static content for SEO: critical headings and listings in initial HTML */}
+        <div className="mb-6">
+          <h2 className="text-2xl font-semibold tracking-tight">Complete Index of All Kenyan Secondary Schools</h2>
+          <p className="text-[#a3a3a3] mt-2">1,127+ schools across 47 counties. Each entry includes unique KSO index, tier, sources, and community-verified details. Use filters below for interactive exploration (JavaScript powered for best UX).</p>
+        </div>
+      </div>
+
       <Suspense fallback={
         <div className="mx-auto max-w-7xl px-6 pt-10 pb-16">
           <div className="text-center py-12">
@@ -55,6 +65,8 @@ export default function SchoolsIndexPage() {
       }>
         <SchoolsIndexClient />
       </Suspense>
+
+      <Footer />
     </div>
   );
 }

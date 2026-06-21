@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import ThemeSwitcher from '../components/ThemeSwitcher';
 import ThemeHint from '../components/ThemeHint';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Citations & Sources | Kenyan Schools Directory',
@@ -60,6 +61,8 @@ export default function CitationsPage() {
       <div className="hidden lg:block fixed top-20 right-6 z-40">
         <ThemeHint suggestedTheme="cream" description="Perfect for citation reading" />
       </div>
+
+      <Footer />
     </div>
   );
 }

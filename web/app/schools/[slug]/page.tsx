@@ -4,6 +4,7 @@ import { School } from '@/lib/types';
 import schoolsData from '@/data/schools.json';
 import SuggestEditButton from './SuggestEditButton';
 import { getTierClass, getGenderClass, formatTier } from '@/lib/utils';
+import Footer from '../../components/Footer';
 
 const schools = schoolsData as School[];
 
@@ -39,7 +40,7 @@ export async function generateMetadata({ params }: PageProps) {
       images: [{ url: "/og.png" }],
     },
     alternates: {
-      canonical: `https://kenyanschool.org/schools/${slug}`,
+      canonical: `https://kenyanschools.org/schools/${slug}`,
     },
   };
 }
@@ -208,7 +209,7 @@ export default async function SchoolPage({ params }: PageProps) {
                   "longitude": school.lng,
                 },
               }),
-              "url": `https://kenyanschool.org/schools/${slug}`,
+              "url": `https://kenyanschools.org/schools/${slug}`,
               "description": `${school.name} is a ${school.tier} secondary school located in ${school.county} County, Kenya. Part of the official public directory by CodeAmani Labs (Founder: codeAmani-Solutions (Barnabas Waweru)).`,
               "educationalLevel": "Secondary",
               "areaServed": {
@@ -230,7 +231,45 @@ export default async function SchoolPage({ params }: PageProps) {
             }),
           }}
         />
+        {/* BreadcrumbList for better navigation signals */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://kenyanschools.org/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Schools",
+                  "item": "https://kenyanschools.org/schools"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": school.county,
+                  "item": `https://kenyanschools.org/counties/${encodeURIComponent(school.county)}`
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": school.name,
+                  "item": `https://kenyanschools.org/schools/${slug}`
+                }
+              ]
+            }),
+          }}
+        />
       </div>
+
+      <Footer />
     </div>
   );
 }
