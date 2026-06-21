@@ -172,7 +172,10 @@ export default function SuggestEditButton({ school }: Props) {
                 <div className="text-[#c5a46e] text-4xl mb-2">✓</div>
                 <div className="text-2xl font-semibold tracking-tight">Thank you</div>
                 <p className="mt-2 text-sm text-[#a3a3a3]">Your contribution and any attached evidence have been recorded in the database.</p>
-                <button onClick={resetAndClose} className="mt-8 rounded-full border border-white/20 px-7 py-2 text-sm">Close</button>
+                <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+                  <button onClick={resetAndClose} className="rounded-full border border-white/20 px-7 py-2 text-sm">Close</button>
+                  <a href="https://github.com/codeAmani-Labs/kenyan-schools-org" target="_blank" className="rounded-full bg-[#c5a46e] text-[#050505] px-7 py-2 text-sm font-medium">View on GitHub (primary org)</a>
+                </div>
               </div>
             )}
           </div>

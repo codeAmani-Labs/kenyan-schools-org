@@ -62,11 +62,13 @@ export default async function SchoolPage({ params }: PageProps) {
       <nav className="glass-nav sticky top-0 z-50">
         <div className="mx-auto max-w-5xl px-6 h-14 flex items-center justify-between text-sm">
           <div className="flex items-center gap-4">
-            <Link href="/" className="font-medium tracking-tight flex items-center gap-2">Kenyan Schools <span className="text-[#c5a46e]">•</span></Link>
+            <Link href="/" className="font-medium tracking-tight flex items-center gap-2">Kenyan Schools <span className="text-xs text-[#c5a46e]">by CodeAmani Labs</span></Link>
             <Link href="/directory" className="text-[#a3a3a3] hover:text-white">Directory</Link>
+            <Link href="/contributors" className="text-[#a3a3a3] hover:text-white">Contributors</Link>
           </div>
           <div className="flex items-center gap-3">
             <a href="#suggest" className="text-[#c5a46e] hover:text-white text-sm">Suggest edit</a>
+            <Link href="/apply" className="glass rounded-full px-4 py-1 text-xs border border-white/10">Apply</Link>
             <Link href="/contribute" className="glass rounded-full px-4 py-1 text-xs border border-white/10">Contribute</Link>
           </div>
         </div>
@@ -207,7 +209,7 @@ export default async function SchoolPage({ params }: PageProps) {
                 },
               }),
               "url": `https://kenyanschool.org/schools/${slug}`,
-              "description": `${school.name} is a ${school.tier} secondary school located in ${school.county} County, Kenya. Part of the official public directory by CodeAmani Labs.`,
+              "description": `${school.name} is a ${school.tier} secondary school located in ${school.county} County, Kenya. Part of the official public directory by CodeAmani Labs (Founder: codeAmani-Solutions (Barnabas Waweru)).`,
               "educationalLevel": "Secondary",
               "areaServed": {
                 "@type": "Country",
@@ -218,7 +220,12 @@ export default async function SchoolPage({ params }: PageProps) {
               "publisher": {
                 "@type": "Organization",
                 "name": "CodeAmani Labs",
-                "url": "https://codeamanilabs.org/"
+                "url": "https://codeamanilabs.org/",
+                "description": "Founded by codeAmani-Solutions (Barnabas Waweru)",
+                "sameAs": [
+                  "https://github.com/codeAmani-Labs",
+                  "https://github.com/codeAmani-Solutions"
+                ]
               }
             }),
           }}

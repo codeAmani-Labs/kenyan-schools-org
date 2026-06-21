@@ -179,7 +179,8 @@ export default function SchoolsIndexClient() {
           </h1>
           <p className="text-lg text-[#a3a3a3] max-w-3xl">
             Search and browse 1,127+ secondary schools. Grouped primarily by county. 
-            Each school has a unique <span className="font-mono text-[#c5a46e]">KSO-XXXX</span> index number.
+            Each school has a unique <span className="font-mono text-[#c5a46e]">KSO-XXXX</span> index number. 
+            Built by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru).
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-sm text-[#666]">
             <span><span className="font-semibold text-[#f5f5f5]">{allSchools.length}</span> total schools</span>

@@ -1,0 +1,24 @@
+{
+  "name": "kenyan-schools-tools",
+  "version": "1.0.0",
+  "description": "CLI and MCP server for extracting data from the Kenyan Schools Directory (public data API). Built by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru)",
+  "main": "cli.js",
+  "files": ["cli.js", "mcp-server.js", "README.md"],
+  "bin": {
+    "kenyan-schools": "./cli.js"
+  },
+  "scripts": {
+    "mcp": "node mcp-server.js",
+    "cli": "node cli.js",
+    "test": "echo \"No tests\""
+  },
+  "keywords": ["kenya", "schools", "education", "directory", "mcp", "cli", "data"],
+  "author": "Kenyan Schools Org",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "commander": "^15.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}

@@ -1,0 +1,276 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* === PREMIUM OBSIDIAN GOLD PALETTE === */
+  /* Deep authoritative dark base */
+  --obsidian-950: #050505;
+  --obsidian-900: #0a0a0a;
+  --obsidian-800: #111111;
+  --obsidian-700: #1a1a1a;
+  --obsidian-600: #222222;
+
+  /* Obsidian Gold - premium metallic */
+  --gold-50: #f8f4e9;
+  --gold-100: #f0e6d0;
+  --gold-200: #e3d1a8;
+  --gold-400: #c5a46e;
+  --gold-500: #b38b4f;
+  --gold-600: #9a7440;
+  --gold-700: #7a5a32;
+
+  /* Supporting authoritative colors */
+  --ink: #f5f5f5;
+  --ink-muted: #a3a3a3;
+  --ink-subtle: #6b6b6b;
+
+  /* Glass surfaces */
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-strong: rgba(255, 255, 255, 0.12);
+}
+
+/* Premium Dark Base */
+body {
+  font-family: var(--font-geist-sans);
+  background: var(--obsidian-950);
+  color: var(--ink);
+}
+
+@theme inline {
+  --color-background: #050505;
+  --color-foreground: #f5f5f5;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Liquid Glass Primitives */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-strong {
+  background: var(--glass-strong);
+  border: 1px solid rgba(255,255,255,0.18);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+}
+
+.glass-card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1),
+              box-shadow 0.2s cubic-bezier(0.23, 1, 0.32, 1),
+              border-color 0.2s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
+              0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-color: var(--gold-400);
+}
+
+.glass-nav {
+  background: rgba(5, 5, 5, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+/* Premium Typography & Spacing */
+h1, h2, h3 {
+  font-feature-settings: "tnum", "ss01";
+  letter-spacing: -0.02em;
+}
+
+/* text-gold removed for Tailwind compatibility - use direct colors */
+
+.gold-underline {
+  position: relative;
+}
+.gold-underline:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, var(--gold-400), transparent);
+}
+
+/* Premium Badges - Authoritative */
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-0.5 text-xs font-medium tracking-wide;
+  border: 1px solid var(--glass-border);
+}
+
+.badge-national {
+  background: rgba(197, 164, 110, 0.15);
+  color: var(--gold-400);
+  border-color: rgba(197, 164, 110, 0.3);
+}
+
+.badge-extra {
+  background: rgba(255,255,255,0.08);
+  color: #d1d5db;
+  border-color: rgba(255,255,255,0.15);
+}
+
+.badge-county {
+  background: rgba(255,255,255,0.05);
+  color: #a3a3a3;
+}
+
+.badge-sne {
+  background: rgba(147, 51, 234, 0.15);
+  color: #c4b5fd;
+}
+
+/* Gender badges - subtle */
+.badge-boys { background: rgba(59, 130, 246, 0.12); color: #93c5fd; }
+.badge-girls { background: rgba(236, 72, 153, 0.12); color: #f9a8d4; }
+.badge-mixed { background: rgba(16, 185, 129, 0.12); color: #6ee7b7; }
+
+/* Filter chips - liquid glass */
+.filter-chip {
+  @apply px-4 py-1.5 text-sm rounded-full border cursor-pointer transition-all;
+  background: var(--glass);
+  border-color: var(--glass-border);
+  color: var(--ink-muted);
+}
+
+.filter-chip:hover {
+  border-color: var(--gold-400);
+  color: var(--ink);
+}
+
+.filter-chip.active {
+  background: var(--gold-400);
+  color: #0a0a0a;
+  border-color: var(--gold-400);
+  font-weight: 600;
+}
+
+/* Detail rows */
+.detail-row {
+  @apply grid grid-cols-1 md:grid-cols-4 gap-x-6 py-4 border-b;
+  border-color: var(--glass-border);
+}
+
+.detail-label {
+  @apply text-sm font-medium tracking-widest uppercase text-[var(--ink-subtle)] pt-0.5;
+}
+
+.detail-value {
+  @apply md:col-span-3 text-[15px] leading-relaxed;
+}
+
+/* Elegant Modal - Liquid Glass */
+.modal {
+  background: var(--obsidian-900);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(32px);
+}
+
+@keyframes glassPop {
+  from { opacity: 0; transform: translateY(20px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-content {
+  animation: glassPop 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Citations */
+.cite {
+  @apply text-[10px] font-mono px-1.5 py-px rounded bg-white/10 text-[#c5a46e] align-super cursor-pointer hover:bg-white/20;
+}
+
+/* School Cards - Premium */
+.school-card {
+  transition: all 0.2s cubic-bezier(0.23, 1.0, 0.32, 1);
+}
+.school-card:hover {
+  transform: translateY(-3px);
+}
+.school-card .card-inner {
+  transition: border-color 0.2s ease;
+}
+.school-card:hover .card-inner {
+  border-color: var(--gold-400);
+}
+
+/* Motion helpers */
+.stagger-item {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+/* Modern components */
+.school-card {
+  transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
+}
+.school-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+  border-color: var(--green-700);
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.badge-national { @apply bg-amber-100 text-amber-800 border border-amber-200; }
+.badge-extra { @apply bg-blue-100 text-blue-800 border border-blue-200; }
+.badge-county { @apply bg-emerald-100 text-emerald-800 border border-emerald-200; }
+.badge-sne { @apply bg-purple-100 text-purple-800 border border-purple-200; }
+
+.badge-boys { @apply bg-sky-100 text-sky-800; }
+.badge-girls { @apply bg-pink-100 text-pink-800; }
+.badge-mixed { @apply bg-teal-100 text-teal-800; }
+
+.filter-chip {
+  @apply px-3 py-1 text-sm rounded-full border cursor-pointer transition-colors;
+}
+.filter-chip.active {
+  @apply bg-[var(--green-800)] text-white border-[var(--green-800)];
+}
+
+.detail-row {
+  @apply grid grid-cols-1 md:grid-cols-4 gap-x-4 py-3 border-b border-slate-100 last:border-0;
+}
+.detail-label {
+  @apply text-sm font-medium text-slate-600;
+}
+.detail-value {
+  @apply md:col-span-3 text-[15px] text-slate-900;
+}
+
+/* Nice table for directory fallback */
+.data-table th {
+  @apply text-left font-medium text-slate-600 py-3 px-4 border-b bg-slate-50;
+}
+.data-table td {
+  @apply py-3 px-4 border-b text-sm;
+}
+
+.modal {
+  animation: modalPop 0.12s ease-out;
+}
+@keyframes modalPop {
+  from { transform: scale(0.96) translateY(6px); opacity: 0; }
+  to { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* Citations */
+.cite {
+  @apply text-[10px] font-mono px-1 py-px rounded bg-slate-100 text-slate-600 align-super cursor-pointer;
+}
