@@ -12,6 +12,7 @@ export default function ThemeHint({ suggestedTheme, label, description }: ThemeH
   const applySuggested = () => {
     document.documentElement.setAttribute('data-theme', suggestedTheme);
     localStorage.setItem('kso-theme', suggestedTheme);
+    window.dispatchEvent(new CustomEvent('kso-theme-change', { detail: { theme: suggestedTheme } }));
   };
 
   return (

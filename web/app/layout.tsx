@@ -82,9 +82,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased dark`}
+      className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#050505] text-[#f5f5f5]">
+      <body className="min-h-full flex flex-col">
         {children}
         <Toaster position="top-center" richColors closeButton />
       </body>

@@ -28,11 +28,37 @@ export default function ThemeSwitcher({ floating = false }: ThemeSwitcherProps) 
     document.documentElement.setAttribute('data-theme', saved);
   }, []);
 
+  // Sync across multiple switcher instances (e.g. nav + floating) and from ThemeHint
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === 'kso-theme' && e.newValue) {
+        const t = e.newValue;
+        setCurrentTheme(t);
+        document.documentElement.setAttribute('data-theme', t);
+      }
+    };
+    const onCustomTheme = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (detail?.theme) {
+        setCurrentTheme(detail.theme);
+      }
+    };
+    window.addEventListener('storage', onStorage);
+    window.addEventListener('kso-theme-change', onCustomTheme as EventListener);
+    return () => {
+      window.removeEventListener('storage', onStorage);
+      window.removeEventListener('kso-theme-change', onCustomTheme as EventListener);
+    };
+  }, []);
+
   const applyTheme = (theme: string) => {
     setCurrentTheme(theme);
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('kso-theme', theme);
     setIsOpen(false);
+
+    // notify other ThemeSwitcher instances + hints
+    window.dispatchEvent(new CustomEvent('kso-theme-change', { detail: { theme } }));
 
     // subtle animation
     document.documentElement.style.transition = 'background 0.25s ease, color 0.25s ease';
