@@ -1,0 +1,1128 @@
+County,Tier,Rank,School Name,Gender,Cluster
+Mombasa,National,1,Mama Ngina Girls' High School,Girls,null
+Mombasa,National,2,MSS for the Physically Handicapped,SNE,null
+Mombasa,National,3,Shimo La Tewa School,Boys,null
+Mombasa,National,4,The Salvation Army Likoni High School for the Visually Impaired,SNE,null
+Mombasa,Extra-County,1,Coast Girls High School,Girls,C2
+Mombasa,Extra-County,2,Khamis Secondary School,Boys,C2
+Mombasa,Extra-County,3,Mazeras High School,Boys,C1
+Mombasa,County,1,Allidina Visram High School,Boys,null
+Mombasa,County,2,Mbaraki Girls Secondary School,Girls,null
+Mombasa,County,3,Sacred Heart High School Mombasa,Mixed,null
+Mombasa,County,4,Serani Secondary School,Boys,null
+Mombasa,County,5,Shariff Nassir Girls,Girls,null
+Mombasa,County,6,Star of the Sea High School,Girls,null
+Mombasa,County,7,Tononoka Secondary School,Boys,null
+Mombasa,County,8,Tudor Day Secondary School,Boys,null
+Kwale,National,1,Kinango Secondary School,null,null
+Kwale,National,2,Kwale High School,Boys,null
+Kwale,National,3,Kwale High School for the Deaf,SNE,null
+Kwale,National,4,Matuga Girls High School,Girls,null
+Kwale,National,5,Waa High School,null,null
+Kwale,Extra-County,1,Franz Josef Secondary School,Girls,C3
+Kwale,Extra-County,2,Kinango Secondary School,Boys,C2
+Kwale,Extra-County,3,Kingwede Girls Secondary School,Girls,C3
+Kwale,Extra-County,4,Msambweni Secondary School,Boys,C3
+Kwale,Extra-County,5,Shimba Hills Secondary School,Mixed,C2
+Kwale,Extra-County,6,Waa Girls Secondary School,Girls,C2
+Kwale,Extra-County,7,Waa High School,Boys,C2
+Kwale,County,1,[Coverage gap - see note],null,null
+Kilifi,National,1,Bahari Girls High School,Girls,null
+Kilifi,National,2,Dr. Krapf,null,null
+Kilifi,National,3,Kombeni,null,null
+Kilifi,National,4,Malindi High,Boys,null
+Kilifi,National,5,Pwani Deaf,SNE,null
+Kilifi,National,6,Ribe Boys,Boys,null
+Kilifi,National,7,Ribe Girls,Girls,null
+Kilifi,National,8,Sahajanad Special,SNE,null
+Kilifi,Extra-County,1,Dr. Krapf Memorial Secondary,Boys,C3
+Kilifi,Extra-County,2,Godoma Secondary,Mixed,C2
+Kilifi,Extra-County,3,Kakoneni Girls Secondary,Girls,C3
+Kilifi,Extra-County,4,Kombeni Girls Secondary,Girls,C1
+Kilifi,Extra-County,5,Lutsangani Boys Secondary,Boys,C1
+Kilifi,Extra-County,6,Malindi High School,Boys,C1
+Kilifi,Extra-County,7,Ngala Memorial Girls' Secondary,Girls,C2
+Kilifi,Extra-County,8,Ribe Girls Secondary,Girls,C1
+Kilifi,Extra-County,9,Sokoke Secondary,Boys,C2
+Kilifi,Extra-County,10,St Johns Girls Secondary,Girls,C2
+Kilifi,Extra-County,11,St. George's High School,Boys,C3
+Kilifi,County,1,Chumani Sec School,Mixed,null
+Kilifi,County,2,Dzitsoni Secondary,Mixed,null
+Kilifi,County,3,Galana,Boys,null
+Kilifi,County,4,Ganze Boys Secondary,Boys,null
+Kilifi,County,5,Ganze Girls Secondary,Girls,null
+Kilifi,County,6,Gede Secondary School,Boys,null
+Kilifi,County,7,Jaribuni,Boys,null
+Kilifi,County,8,Kakuyuni Boys Secondary,Boys,null
+Kilifi,County,9,Mapimo Girls,Girls,null
+Kilifi,County,10,Marafa,Boys,null
+Kilifi,County,11,Mariakani Secondary,Boys,null
+Kilifi,County,12,Moi Kadzonzo Girls Secondary,Girls,null
+Kilifi,County,13,Mwangea Girls,Girls,null
+Kilifi,County,14,Ngombeni Girls Sec,Girls,null
+Kilifi,County,15,St Theresas,Mixed,null
+Kilifi,County,16,Vitengeni Baptist Secondary,Mixed,null
+Tana River,National,1,Hola Boys Secondary School,Boys,null
+Tana River,National,2,Ngao Girls Secondary School,Girls,null
+Tana River,Extra-County,1,Hirimani Secondary,Mixed,C3
+Tana River,Extra-County,2,Kipini Secondary,Mixed,C3
+Tana River,Extra-County,3,Madogo Secondary,Mixed,C3
+Tana River,Extra-County,4,Mau Mau Memorial Girls Secondary,Girls,C2
+Tana River,Extra-County,5,Tarasaa High School,Boys,C3
+Tana River,Extra-County,6,Wenje Secondary,Mixed,C3
+Tana River,County,1,Galole Model,Mixed,null
+Tana River,County,2,Garsen High School,null,null
+Tana River,County,3,Hurara Secondary School,null,null
+Tana River,County,4,Kitere Secondary,null,null
+Tana River,County,5,Marifano Secondary,null,null
+Tana River,County,6,Oda Secondary School,null,null
+Tana River,County,7,Sane Girls Secondary,Girls,null
+Lamu,National,1,Lamu Girls Secondary School,Girls,null
+Lamu,National,2,Mpeketoni Boys High School,Boys,null
+Lamu,Extra-County,1,Lamu Boys Secondary School,Boys,C1
+Lamu,County,1,Bahari Secondary,Mixed,null
+Lamu,County,2,Faza Secondary,Mixed,null
+Lamu,County,3,Hindi Secondary,Mixed,null
+Lamu,County,4,Hongwe Secondary,Mixed,null
+Lamu,County,5,Mkunumbi Secondary,Mixed,null
+Lamu,County,6,Mokowe Secondary,Mixed,null
+Lamu,County,7,Uziwa Secondary,Mixed,null
+Lamu,County,8,Witu Secondary School,Mixed,null
+Taita-Taveta,National,1,Bura Girls High School,Girls,null
+Taita-Taveta,National,2,Dr. Aggrey High School,Boys,null
+Taita-Taveta,National,3,Kenyatta High School Mwatate,Boys,null
+Taita-Taveta,Extra-County,1,Bishop John Njenga Secondary,Mixed,C2
+Taita-Taveta,Extra-County,2,Canon Kituri Secondary,Mixed,C2
+Taita-Taveta,Extra-County,3,Dr. Aggrey High School,Boys,C1
+Taita-Taveta,Extra-County,4,Eldoro Girls High School,Girls,C2
+Taita-Taveta,Extra-County,5,Kituma Secondary,Boys,C3
+Taita-Taveta,Extra-County,6,Mahoo Girls' Secondary,Girls,C2
+Taita-Taveta,Extra-County,7,Moi Boys High School Kasigau,Boys,C3
+Taita-Taveta,Extra-County,8,Murray Girls' High,Girls,C1
+Taita-Taveta,Extra-County,9,Mwakitawa Secondary,Girls,C2
+Taita-Taveta,Extra-County,10,Mwasere Girls' Secondary,Girls,C1
+Taita-Taveta,Extra-County,11,Our Lady of Perpetual Succour Girls Secondary,Girls,C3
+Taita-Taveta,Extra-County,12,Senior Chief Mwangeka Secondary,Girls,C3
+Taita-Taveta,Extra-County,13,St. Mary's High School Lushangonyi,Boys,C1
+Taita-Taveta,Extra-County,14,Timbila Secondary,Boys,C2
+Taita-Taveta,Extra-County,15,Voi Secondary School,Boys,C1
+Garissa,National,1,Garissa High School,Boys,null
+Garissa,National,2,Garissa Special High School for the Deaf,SNE,null
+Garissa,National,3,NEP Girls High,Girls,null
+Garissa,Extra-County,1,County High School,Boys,C3
+Garissa,Extra-County,2,Fafi Girls Secondary School,Girls,C3
+Garissa,Extra-County,3,Saka Girls Secondary School,Girls,C3
+Garissa,Extra-County,4,Sankuri Secondary School,Boys,C3
+Garissa,County,1,Alinjugur Secondary,Mixed,null
+Garissa,County,2,Balambala Secondary,Boys,null
+Garissa,County,3,Benane Secondary,Mixed,null
+Garissa,County,4,Bura Secondary,Boys,null
+Garissa,County,5,Dadaab Secondary,Boys,null
+Garissa,County,6,Dertu Girls Secondary,Girls,null
+Garissa,County,7,Hulugho Boys' Secondary,Boys,null
+Garissa,County,8,Hulugho Girls Secondary,Girls,null
+Garissa,County,9,Kulan Secondary,Boys,null
+Garissa,County,10,Modogashe Secondary,Boys,null
+Garissa,County,11,Muzdalifa Integrated Girls High,Girls,null
+Garissa,County,12,Nanighi Secondary,Boys,null
+Garissa,County,13,Shurie Secondary,Boys,null
+Garissa,County,14,Yusuf Haji Girls Secondary,Girls,null
+Wajir,National,1,Wajir Girls Secondary School,Girls,null
+Wajir,National,2,Wajir High School,Boys,null
+Wajir,National,3,Wajir Special Secondary School for the Deaf,SNE,null
+Wajir,Extra-County,1,Bute Boys Secondary,Boys,C3
+Wajir,Extra-County,2,Bute Girls Secondary,Girls,C3
+Wajir,Extra-County,3,Griftu Secondary,Boys,C2
+Wajir,Extra-County,4,Hon Khalif Girls Secondary,Girls,C3
+Wajir,Extra-County,5,Sabunley Secondary,Boys,C3
+Wajir,County,1,Buna Secondary,Boys,null
+Wajir,County,2,Eldas Secondary,Boys,null
+Wajir,County,3,Habaswein Boys Secondary,Boys,null
+Wajir,County,4,Khorof Harar Secondary,Boys,null
+Wajir,County,5,Korondille Boys Secondary,Boys,null
+Wajir,County,6,Kutulo Girls Secondary,Girls,null
+Wajir,County,7,Mansa Boys Secondary,Boys,null
+Wajir,County,8,Sarman Boys Secondary,Boys,null
+Wajir,County,9,Senior Chief Ogle Girls' Secondary,Girls,null
+Wajir,County,10,Tarbaj Secondary,Boys,null
+Wajir,County,11,Wagalla Memorial Secondary,Mixed,null
+Wajir,County,12,Wajir Bor Boys Secondary,Boys,null
+Mandera,National,1,Mandera Secondary School,Boys,null
+Mandera,National,2,Moi Girls Secondary School Mandera,Girls,null
+Mandera,Extra-County,1,Libin Nomadic Girls Secondary,Girls,C3
+Mandera,Extra-County,2,Sheikh Ali High School,Boys,C3
+Mandera,Extra-County,3,Takaba Girls' Secondary,Girls,C3
+Mandera,Extra-County,4,Wayam Secondary,Boys,C3
+Mandera,County,1,Arabia Boys Secondary,Boys,null
+Mandera,County,2,Arabia Girls Secondary,Girls,null
+Mandera,County,3,Aresa Girls Secondary,Girls,null
+Mandera,County,4,Ashabito Girls Secondary,Girls,null
+Mandera,County,5,Ashabito Secondary,null,null
+Mandera,County,6,Burduras Secondary,null,null
+Mandera,County,7,Chief Mohamed Jari Secondary,Mixed,null
+Mandera,County,8,Dandu Secondary,null,null
+Mandera,County,9,Elwak Girls Secondary,Girls,null
+Mandera,County,10,Elwak Secondary,Boys,null
+Mandera,County,11,Gari Secondary,null,null
+Mandera,County,12,Hareri Mixed Secondary,Mixed,null
+Mandera,County,13,Khalalio Girls Secondary,Girls,null
+Mandera,County,14,Khalalio Secondary,Boys,null
+Mandera,County,15,Kutulo Girls Model Secondary,Girls,null
+Mandera,County,16,Lafey Boys Secondary,Boys,null
+Mandera,County,17,Malkamari Boys Secondary,Boys,null
+Mandera,County,18,Neboi Secondary,Boys,null
+Mandera,County,19,Rhamu Dimtu Boys Secondary,Boys,null
+Mandera,County,20,Rhamu Girls Secondary,Girls,null
+Mandera,County,21,Takaba Boys' Secondary,Boys,null
+Mandera,County,22,Wargadud Mixed Secondary,Mixed,null
+Marsabit,National,1,Moi Girls Secondary School,Girls,null
+Marsabit,National,2,Moyale Secondary School,Boys,null
+Marsabit,Extra-County,1,Chalbi Boys' High School,Boys,C1
+Marsabit,Extra-County,2,Dr. Gurracha Memorial Girls Secondary,Girls,C3
+Marsabit,Extra-County,3,Loiyangalani Secondary,Boys,C3
+Marsabit,Extra-County,4,Marsabit Boys High School,Boys,C2
+Marsabit,Extra-County,5,Moyale Girls Secondary,Girls,C3
+Marsabit,Extra-County,6,Sasura Girls' Secondary,Girls,C2
+Marsabit,Extra-County,7,Sololo Mixed Day/Boarding High School,Boys,C3
+Marsabit,County,1,[Coverage gap - see note],null,null
+Isiolo,National,1,Garbatula High School,null,null
+Isiolo,National,2,Isiolo Girls High School,Girls,null
+Isiolo,Extra-County,1,Isiolo Boys Secondary School,Boys,C2
+Isiolo,Extra-County,2,Kinna Secondary School,Mixed,C2
+Isiolo,County,1,[Coverage gap - see note],null,null
+Meru,National,1,Kaaga Girls High School,Girls,null
+Meru,National,2,Meru School,Boys,null
+Meru,National,3,Nkubu High School,Boys,null
+Meru,National,4,St Lucy's High School,null,null
+Meru,National,5,St Mary's Girls' High School Igoji,Girls,null
+Meru,Extra-County,1,Abothuguchi Secondary,Boys,C3
+Meru,Extra-County,2,Burieruri Boys Secondary,Boys,C1
+Meru,Extra-County,3,Gakuuni Girls Secondary,Girls,C3
+Meru,Extra-County,4,Gikumene Girls Secondary,Girls,C2
+Meru,Extra-County,5,Gikurune Boys Secondary,Boys,C1
+Meru,Extra-County,6,Gikurune Girls Secondary,Girls,C2
+Meru,Extra-County,7,Igembe Boys' Secondary,Boys,C1
+Meru,Extra-County,8,Kaaga Boys Secondary,Boys,C1
+Meru,Extra-County,9,Kaaga Girls' High School,Girls,C1
+Meru,Extra-County,10,Kangeta Girls' Secondary,Girls,C2
+Meru,Extra-County,11,Kanyakine High School,Boys,C2
+Meru,Extra-County,12,Kibirichia Boys Secondary,Boys,C2
+Meru,Extra-County,13,Kibirichia Girls Secondary,Girls,C2
+Meru,Extra-County,14,Kinjo Girls Secondary,Girls,C2
+Meru,Extra-County,15,Kirigara Girls Secondary,Girls,C2
+Meru,Extra-County,16,Maua Girls Secondary,Girls,C2
+Meru,Extra-County,17,Miathene Boys High School,Boys,C2
+Meru,Extra-County,18,Mikinduri Girls Secondary,Girls,C1
+Meru,Extra-County,19,Njia Boys Secondary,Boys,C3
+Meru,Extra-County,20,Nkubu High School,Boys,C1
+Meru,Extra-County,21,Nkuene Girls High School,Girls,C1
+Meru,Extra-County,22,Ntunene Girls Secondary,Girls,C3
+Meru,Extra-County,23,Ontulili Boys Secondary,Boys,C1
+Meru,Extra-County,24,Ruiri Girls Secondary,Girls,C2
+Meru,Extra-County,25,Yururu Girls' Secondary,Girls,C1
+Tharaka-Nithi,National,1,Chogoria Boys High School,Boys,null
+Tharaka-Nithi,National,2,Chogoria Girls,Girls,null
+Tharaka-Nithi,National,3,Ikuu Boys High School,Boys,null
+Tharaka-Nithi,National,4,Kamatungu Secondary for Hearing Impaired,SNE,null
+Tharaka-Nithi,National,5,Kiriani Boys High School,Boys,null
+Tharaka-Nithi,Extra-County,1,Chief Mbogori Girls Secondary,Girls,C2
+Tharaka-Nithi,Extra-County,2,Chogoria Boys,Boys,C1
+Tharaka-Nithi,Extra-County,3,Chuka Boys High School,Boys,C1
+Tharaka-Nithi,Extra-County,4,Chuka Girls' Secondary,Girls,C1
+Tharaka-Nithi,Extra-County,5,Igwanjau Secondary,Mixed,C2
+Tharaka-Nithi,Extra-County,6,Ikawa Secondary,Mixed,C2
+Tharaka-Nithi,Extra-County,7,Ikuu Girls Secondary,Girls,C1
+Tharaka-Nithi,Extra-County,8,Iruma Girls Secondary,Girls,C2
+Tharaka-Nithi,Extra-County,9,Itugururu Secondary,Mixed,C1
+Tharaka-Nithi,Extra-County,10,Kajiunduthi High,Boys,C1
+Tharaka-Nithi,Extra-County,11,Karamugi Secondary,Girls,C3
+Tharaka-Nithi,Extra-County,12,Kiini Secondary,Mixed,C2
+Tharaka-Nithi,Extra-County,13,Kiriani Boys High,Boys,C2
+Tharaka-Nithi,Extra-County,14,Kiurani Secondary,Boys,C3
+Tharaka-Nithi,Extra-County,15,Magumoni Girls Secondary,Girls,C2
+Tharaka-Nithi,Extra-County,16,Makuri Girls Secondary,Girls,C2
+Tharaka-Nithi,Extra-County,17,Materi Boys' High,Boys,C3
+Tharaka-Nithi,Extra-County,18,Mukuuni High,Boys,C2
+Tharaka-Nithi,Extra-County,19,Muthambi Boys Secondary,Boys,C2
+Tharaka-Nithi,Extra-County,20,Muthambi Girls High,Girls,C1
+Tharaka-Nithi,Extra-County,21,Ngaita Girls Secondary,Girls,C3
+Tharaka-Nithi,Extra-County,22,Njuri High School,Mixed,C1
+Tharaka-Nithi,Extra-County,23,Our Lady of Mercy Girls Secondary,Girls,C3
+Tharaka-Nithi,Extra-County,24,Tharaka Secondary,Boys,C1
+Embu,National,1,ACK Mary Magdalene for the Deaf,SNE,null
+Embu,National,2,Kyeni Girls,Girls,null
+Embu,National,3,Moi Girls,Girls,null
+Embu,National,4,Siakago Boys High School,Boys,null
+Embu,National,5,Siakago Girls High School,Girls,null
+Embu,National,6,Yangwa Boys High School,Boys,null
+Embu,Extra-County,1,Gangara Secondary,Mixed,C2
+Embu,Extra-County,2,Joseph Allamano Wachoro Secondary,Boys,C3
+Embu,Extra-County,3,Kangaru Girls School,Girls,C1
+Embu,Extra-County,4,Kangaru School,Boys,C1
+Embu,Extra-County,5,Kanyuambora Secondary,Boys,C2
+Embu,Extra-County,6,Kavutiri Boys Secondary,Boys,C2
+Embu,Extra-County,7,Kegonge Boys High,Boys,C2
+Embu,Extra-County,8,Kiambere School Complex,Mixed,C2
+Embu,Extra-County,9,King David Boys High School Kamama,Boys,C1
+Embu,Extra-County,10,Kiriari Girls High,Girls,C1
+Embu,Extra-County,11,Kirimari Secondary,Boys,C3
+Embu,Extra-County,12,Kyeni Girls' High,Girls,C1
+Embu,Extra-County,13,Mariari Girls Secondary,Girls,C3
+Embu,Extra-County,14,Mayori Secondary,Mixed,C1
+Embu,Extra-County,15,Nguviu Boys High,Boys,C1
+Embu,Extra-County,16,Nguviu Girls Secondary,Girls,C1
+Embu,Extra-County,17,Nyangwa Boys' High,Boys,C1
+Embu,Extra-County,18,Siakago Boys High School,Boys,C1
+Embu,Extra-County,19,St Agnes Kiaganari Girls Secondary,Girls,C3
+Embu,Extra-County,20,St Paul's High School Kevote,Boys,C1
+Embu,Extra-County,21,St Teresa's Girls Kithimu,Girls,C1
+Embu,Extra-County,22,St. Catherine Nthagaiya Girls Secondary,Girls,C1
+Embu,Extra-County,23,St. Marys Kiangima Secondary,Girls,C3
+Kitui,National,1,Kimangao Girls Secondary School,Girls,null
+Kitui,National,2,Kitui High School,Boys,null
+Kitui,National,3,Muthale Girls,Girls,null
+Kitui,National,4,St. Charles Lwanga School,Boys,null
+Kitui,Extra-County,1,Chuluni Girls' Secondary,Girls,C1
+Kitui,Extra-County,2,Gankanga Secondary,Mixed,C2
+Kitui,Extra-County,3,Ikutha Boys Secondary,Boys,C1
+Kitui,Extra-County,4,Ikutha Girls Secondary,Girls,C2
+Kitui,Extra-County,5,Itoleka Secondary,Girls,C3
+Kitui,Extra-County,6,Katheka Boys' Secondary,Boys,C2
+Kitui,Extra-County,7,Kimangao Girls Secondary,Girls,C3
+Kitui,Extra-County,8,Kisasi Secondary,Boys,C1
+Kitui,Extra-County,9,Kyondoni Girls Secondary,Girls,C1
+Kitui,Extra-County,10,Maliku Girls' Secondary,Girls,C1
+Kitui,Extra-County,11,Matinyani Secondary,Boys,C1
+Kitui,Extra-County,12,Mbitini Girls' Secondary,Girls,C1
+Kitui,Extra-County,13,Migwani Secondary,Boys,C1
+Kitui,Extra-County,14,Mulango Girls High,Girls,C1
+Kitui,Extra-County,15,Mutito Boys Secondary,Boys,C2
+Kitui,Extra-County,16,Mutomo Girls Secondary,Girls,C1
+Kitui,Extra-County,17,Mutonguni Secondary,Boys,C1
+Kitui,Extra-County,18,Mwingi Secondary,Boys,C1
+Kitui,Extra-County,19,Nguutani Secondary,Boys,C2
+Kitui,Extra-County,20,Nzeluni Girls Secondary,Girls,C2
+Kitui,Extra-County,21,St Charles Lwanga School,Boys,C1
+Kitui,Extra-County,22,St Lukes Yatta Secondary,Boys,C1
+Kitui,Extra-County,23,St Thomas Aquinas Kalawa Boys,Boys,C3
+Kitui,Extra-County,24,St Ursula Girls' Secondary Tungutu,Girls,C2
+Kitui,Extra-County,25,St. Angela's Girls Secondary,Girls,C1
+Kitui,Extra-County,26,St. Mary's Mutito Girls Secondary,Girls,C2
+Kitui,Extra-County,27,St. Monica Girls Mulutu Secondary,Girls,C1
+Kitui,Extra-County,28,St.Peter's Nzambani Boys Secondary,Boys,C3
+Kitui,Extra-County,29,Thitani Secondary,Girls,C1
+Kitui,Extra-County,30,Yambyu Girls Secondary,Girls,C2
+Machakos,National,1,Kathiani Girls School,Girls,null
+Machakos,National,2,Machakos Boys,Boys,null
+Machakos,National,3,Machakos Girls High School,Girls,null
+Machakos,National,4,Machakos Secondary School for the Deaf,SNE,null
+Machakos,National,5,Tala High,Boys,null
+Machakos,Extra-County,1,Kabaa High School,Boys,C1
+Machakos,Extra-County,2,Kangundo High School,Boys,C1
+Machakos,Extra-County,3,Kathiani High School,Boys,C3
+Machakos,Extra-County,4,Kitonyini High,Mixed,C2
+Machakos,Extra-County,5,Machakos Girls' High,Girls,C1
+Machakos,Extra-County,6,Masii Boys High,Boys,C3
+Machakos,Extra-County,7,Masii Girls' Secondary,Girls,C3
+Machakos,Extra-County,8,Masinga Boys Secondary,Boys,C1
+Machakos,Extra-County,9,Matungulu Girls School,Girls,C3
+Machakos,Extra-County,10,Mua Hills Secondary,Girls,C2
+Machakos,Extra-County,11,Mumbuni Girls' School,Girls,C1
+Machakos,Extra-County,12,Mumbuni High School,Boys,C1
+Machakos,Extra-County,13,Muthetheni Girls' Secondary,Girls,C1
+Machakos,Extra-County,14,Ngelani High School,Boys,C2
+Machakos,Extra-County,15,Nyayo A.I.C Girls Secondary,Girls,C2
+Machakos,Extra-County,16,Sengani Secondary,Girls,C3
+Machakos,Extra-County,17,St. Francis Misyani Girls High,Girls,C1
+Machakos,Extra-County,18,St. Josephine Bakhita Masinga Girls' High,Girls,C1
+Machakos,Extra-County,19,Tala Girls Secondary,Girls,C1
+Machakos,Extra-County,20,Tala High School,Boys,C1
+Machakos,Extra-County,21,Vyulya Girls' Secondary,Girls,C1
+Makueni,National,1,Makueni Boys,Boys,null
+Makueni,National,2,Makueni Girls High School,Girls,null
+Makueni,National,3,Matiliku Secondary,Boys,null
+Makueni,National,4,Mbooni Boys,Boys,null
+Makueni,National,5,Mukaa Boys High School,Boys,null
+Makueni,National,6,Precious Blood Kilungu,Girls,null
+Makueni,National,7,St. Alphonsa Kisau Girls Secondary,Girls,null
+Makueni,National,8,St. Joseph's Girls Secondary Kibwezi,Girls,null
+Makueni,National,9,St. Teresa Mbooni Girls,Girls,null
+Makueni,Extra-County,1,Barazani Girls' High School,Girls,C1
+Makueni,Extra-County,2,Kalawa Secondary,Boys,C1
+Makueni,Extra-County,3,Kalulini Boys' High School,Boys,C1
+Makueni,Extra-County,4,Kasikeu Secondary,Boys,C3
+Makueni,Extra-County,5,Kaumoni Boys Secondary,Boys,C1
+Makueni,Extra-County,6,Kisau Girls Secondary,Girls,C1
+Makueni,Extra-County,7,Kitondo Secondary,Boys,C1
+Makueni,Extra-County,8,Makindu Secondary,Boys,C1
+Makueni,Extra-County,9,Makueni Girls High School,Girls,C1
+Makueni,Extra-County,10,Matiliku Secondary,Boys,C3
+Makueni,Extra-County,11,Mbooni Boys High School,Boys,C1
+Makueni,Extra-County,12,Moi Girls Secondary Kibwezi,Girls,C3
+Makueni,Extra-County,13,Mukaa Boys' High School,Boys,C1
+Makueni,Extra-County,14,Mwaani Boys' Secondary,Boys,C1
+Makueni,Extra-County,15,Mwaani Girls Secondary,Girls,C3
+Makueni,Extra-County,16,Ngoto Boys High School,Boys,C1
+Makueni,Extra-County,17,Precious Blood Secondary School Kilungu,Girls,C1
+Makueni,Extra-County,18,St. Joseph's Girls Secondary Kibwezi,Girls,C1
+Makueni,Extra-County,19,St. Martin Kathonzweni School,Boys,C2
+Nyandarua,National,1,Karima Girls,Girls,null
+Nyandarua,National,2,Magomano Secondary,Girls,null
+Nyandarua,National,3,Njabini Boys High School,Boys,null
+Nyandarua,National,4,Nyahururu High School,Boys,null
+Nyandarua,National,5,Nyandarua High,null,null
+Nyandarua,Extra-County,1,Leshau Boys Secondary,Boys,C3
+Nyandarua,Extra-County,2,Magomano Secondary,Girls,C3
+Nyandarua,Extra-County,3,Magumu High School,Boys,C2
+Nyandarua,Extra-County,4,Mt Kinangop Girls' Secondary,Girls,C1
+Nyandarua,Extra-County,5,Ndaragwa Girls,Girls,C3
+Nyandarua,Extra-County,6,Njabini Boys High School,Boys,C1
+Nyandarua,Extra-County,7,Nyahururu High School,Boys,C1
+Nyandarua,Extra-County,8,Nyakiambi Girls Secondary,Girls,C2
+Nyandarua,Extra-County,9,St. Pauls Amani Boys High School,Boys,C3
+Nyandarua,Extra-County,10,Wanjohi Secondary,Girls,C1
+Nyeri,National,1,Bishop Gatimu Ngandu Girls,Girls,null
+Nyeri,National,2,Kagumo High,Boys,null
+Nyeri,National,3,Mahiga Girls,Girls,null
+Nyeri,National,4,Nyeri High School,Boys,null
+Nyeri,National,5,Othaya Boys,Boys,null
+Nyeri,National,6,Rev Muhoro School for the Deaf,SNE,null
+Nyeri,National,7,South Tetu Girls,Girls,null
+Nyeri,Extra-County,1,Birithia Secondary,Girls,C3
+Nyeri,Extra-County,2,Chinga Boys High,Boys,C1
+Nyeri,Extra-County,3,Dedan Kimathi Memorial High,Boys,C2
+Nyeri,Extra-County,4,Endarasha High,Boys,C2
+Nyeri,Extra-County,5,Giakanja Secondary,Boys,C1
+Nyeri,Extra-County,6,Kangubiri Girls High,Girls,C1
+Nyeri,Extra-County,7,Kanjuri High,Boys,C1
+Nyeri,Extra-County,8,Karima Boys' High,Boys,C1
+Nyeri,Extra-County,9,Kenyatta High School Mahiga,Boys,C1
+Nyeri,Extra-County,10,Kirimara High,Boys,C1
+Nyeri,Extra-County,11,Mahiga Girls Secondary,Girls,C1
+Nyeri,Extra-County,12,Mukurweini Boys' High,Boys,C2
+Nyeri,Extra-County,13,Muruguru Secondary,Girls,C3
+Nyeri,Extra-County,14,Naromoru Boys Secondary,Boys,C3
+Nyeri,Extra-County,15,Naromoru Girls Secondary,Girls,C1
+Nyeri,Extra-County,16,Nyeri High School,Boys,C1
+Nyeri,Extra-County,17,Othaya Boys High,Boys,C1
+Nyeri,Extra-County,18,Othaya Girls Secondary,Girls,C1
+Nyeri,Extra-County,19,Our Lady of Fatima Chinga Girls Secondary,Girls,C1
+Nyeri,Extra-County,20,South Tetu Girls' High,Girls,C1
+Nyeri,Extra-County,21,St Bonaventure Kaheti Boys High,Boys,C1
+Nyeri,Extra-County,22,St. Bakhita Gataragwa Girls High,Girls,C1
+Nyeri,Extra-County,23,St.Teresa Moi Equator Girls' Secondary,Girls,C3
+Nyeri,Extra-County,24,Tumutumu Girls' High,Girls,C1
+Kirinyaga,National,1,Baricho Boys High School,Boys,null
+Kirinyaga,National,2,Kabare Girls High School,Girls,null
+Kirinyaga,National,3,Kianyaga High School,Boys,null
+Kirinyaga,National,4,Mutira Girls Secondary,Girls,null
+Kirinyaga,National,5,St. Faustina Kerugoya Girls High School,Girls,null
+Kirinyaga,Extra-County,1,Kamuiru Secondary,Boys,C1
+Kirinyaga,Extra-County,2,Karoti Girls High,Girls,C1
+Kirinyaga,Extra-County,3,Kerugoya Boys High,Boys,C1
+Kirinyaga,Extra-County,4,Kerugoya Girls High,Girls,C1
+Kirinyaga,Extra-County,5,Kiamutugu Boys High,Boys,C1
+Kirinyaga,Extra-County,6,Kianyaga High School,Boys,C1
+Kirinyaga,Extra-County,7,Kiaragana Girls Secondary,Girls,C3
+Kirinyaga,Extra-County,8,Kiburu Secondary,Boys,C3
+Kirinyaga,Extra-County,9,Mugumo Girls' Secondary,Girls,C3
+Kirinyaga,Extra-County,10,Mutira Girls Secondary,Girls,C1
+Kirinyaga,Extra-County,11,Ngaru Girls Secondary,Girls,C3
+Kirinyaga,Extra-County,12,Ngiriambu Girls Secondary,Girls,C1
+Kirinyaga,Extra-County,13,St Marys Karumandi Secondary,Boys,C3
+Kirinyaga,Extra-County,14,St. Bakhita Kiburia Girls' Secondary,Girls,C1
+Kirinyaga,Extra-County,15,St. Mary's Mwea Girls Secondary,Girls,C3
+Murang'a,National,1,Kahuhia Girls,Girls,null
+Murang'a,National,2,Kamahuha Girls High School,Girls,null
+Murang'a,National,3,Kiaguthu Boys Secondary,Boys,null
+Murang'a,National,4,Mugoiri Girls High School,Girls,null
+Murang'a,National,5,Murang'a High,Boys,null
+Murang'a,National,6,Murang'a School for the Visually Impaired,SNE,null
+Murang'a,National,7,Njiri School,Boys,null
+Murang'a,Extra-County,1,Gaichanjiru High School,Boys,C1
+Murang'a,Extra-County,2,Gatanga Girls' Secondary,Girls,C1
+Murang'a,Extra-County,3,Githumu High School,Boys,C1
+Murang'a,Extra-County,4,Githunguri Girls High,Girls,C1
+Murang'a,Extra-County,5,Gitugi Girls High,Girls,C1
+Murang'a,Extra-County,6,Gituru Secondary,Mixed,C2
+Murang'a,Extra-County,7,Ichagaki Boys High School,Boys,C3
+Murang'a,Extra-County,8,Kahuhia Girls' High,Girls,C1
+Murang'a,Extra-County,9,Kamahuha Girls High,Girls,C1
+Murang'a,Extra-County,10,Kangema High School,Boys,C1
+Murang'a,Extra-County,11,Kiaguthu Boys Secondary,Boys,C1
+Murang'a,Extra-County,12,Kianderi Girls Secondary,Girls,C3
+Murang'a,Extra-County,13,Kibutha Girls Secondary,Girls,C3
+Murang'a,Extra-County,14,Kigumo Bendera High,Boys,C2
+Murang'a,Extra-County,15,Kiria-Ini Girls Secondary,Girls,C1
+Murang'a,Extra-County,16,Kirogo Secondary,Boys,C2
+Murang'a,Extra-County,17,Kirwara Secondary,Boys,C1
+Murang'a,Extra-County,18,Makuyu Girls Secondary,Girls,C3
+Murang'a,Extra-County,19,Makuyu Secondary,Boys,C3
+Murang'a,Extra-County,20,Mumbi Girls' High,Girls,C1
+Murang'a,Extra-County,21,Naaro High School,Mixed,C1
+Murang'a,Extra-County,22,Ng'araria Girls Secondary,Girls,C1
+Murang'a,Extra-County,23,Nginda Girl's Secondary,Girls,C2
+Murang'a,Extra-County,24,Njiiri School,Boys,C1
+Murang'a,Extra-County,25,Njumbi High School,Boys,C1
+Murang'a,Extra-County,26,Nyagatugu Secondary,Boys,C3
+Murang'a,Extra-County,27,Ruchu Girls Secondary,Girls,C1
+Murang'a,Extra-County,28,St. Charles Lwanga Secondary Karimamwaro,Mixed,C3
+Murang'a,Extra-County,29,Weithaga Boys Secondary,Boys,C1
+Kiambu,National,1,Alliance Girls High School,Girls,null
+Kiambu,National,2,Alliance High School,Boys,null
+Kiambu,National,3,Kambui Girls High School,Girls,null
+Kiambu,National,4,Kiambu High School,Boys,null
+Kiambu,National,5,Limuru Girls' School,Girls,null
+Kiambu,National,6,Loreto High School Limuru,Girls,null
+Kiambu,National,7,Mang'u High School,Boys,null
+Kiambu,National,8,Our Lady of Mt. Carmel Maryhills Girls,Girls,null
+Kiambu,National,9,PCEA Kambui School for the Hearing Impaired,SNE,null
+Kiambu,National,10,Precious Blood Kagwe Girls Secondary,Girls,null
+Kiambu,National,11,SA High School for the Blind,SNE,null
+Kiambu,National,12,SA Joytown Secondary School for the PH,SNE,null
+Kiambu,National,13,St. Anne's Girls Lioki,Girls,null
+Kiambu,National,14,St. Francis Girls High School Mang'u,Girls,null
+Kiambu,National,15,Thika High School,Boys,null
+Kiambu,Extra-County,1,Chania Boys' High,Boys,C1
+Kiambu,Extra-County,2,Chania Girls' High,Girls,C1
+Kiambu,Extra-County,3,Githiga High School,Boys,C3
+Kiambu,Extra-County,4,Kabete High School,Boys,C3
+Kiambu,Extra-County,5,Kanunga High,Boys,C1
+Kiambu,Extra-County,6,Kiambu High School,Boys,C1
+Kiambu,Extra-County,7,Kijabe Boys High,Boys,C1
+Kiambu,Extra-County,8,Kijabe Girls High,Girls,C1
+Kiambu,Extra-County,9,Loreto Girls High School Kiambu,Girls,C1
+Kiambu,Extra-County,10,Mary Leakey Girls' High,Girls,C1
+Kiambu,Extra-County,11,Muhoho High,Boys,C1
+Kiambu,Extra-County,12,Muthurwa Secondary,Girls,C3
+Kiambu,Extra-County,13,Ndumberi Girls Secondary,Girls,C3
+Kiambu,Extra-County,14,Precious Blood Kagwe Girls Secondary,Girls,C1
+Kiambu,Extra-County,15,Senior Chief Koinange Girls High,Girls,C1
+Kiambu,Extra-County,16,St Joseph High School,Boys,C3
+Kiambu,Extra-County,17,St. Anne's Secondary School-Lioki,Girls,C1
+Kiambu,Extra-County,18,St. Francis Girls High School Mang'u,Girls,C1
+Kiambu,Extra-County,19,Thika High School,Boys,C1
+Turkana,National,1,Katilu Girls Secondary School,Girls,null
+Turkana,National,2,Lodwar Boys High School,Boys,null
+Turkana,National,3,Turkana Girls Secondary School,Girls,null
+Turkana,Extra-County,1,AIC Kang'itit Girls Secondary,Girls,C3
+Turkana,Extra-County,2,Katabok Girls Secondary,Girls,C3
+Turkana,Extra-County,3,Katilu Boys Secondary,Boys,C2
+Turkana,Extra-County,4,Lokitaung Secondary,Boys,C3
+Turkana,Extra-County,5,Our Lady's Girls Secondary Kakuma,Girls,C2
+Turkana,Extra-County,6,R C E A Lokori Boys Secondary,Boys,C3
+Turkana,County,1,David Lee Adventist,Mixed,null
+Turkana,County,2,Kakuma Boys,Boys,null
+Turkana,County,3,Kalobeyei,Mixed,null
+Turkana,County,4,Kapedo Mixed,null,null
+Turkana,County,5,Loima Boys,Boys,null
+Turkana,County,6,Loima Girls,Girls,null
+Turkana,County,7,Mogila Girls,Girls,null
+Turkana,County,8,Napeililim,Boys,null
+Turkana,County,9,Songot,Boys,null
+Turkana,County,10,Tarachi Sec,Mixed,null
+Turkana,County,11,Turkwel Boys,Boys,null
+West Pokot,National,1,Chewoyet High School,Boys,null
+West Pokot,National,2,St. Elizabeth Girls School,Girls,null
+West Pokot,Extra-County,1,Chepkorniswo Boys' Secondary,Boys,C2
+West Pokot,Extra-County,2,Holy Cross Boys Secondary Kacheliba,Boys,C3
+West Pokot,Extra-County,3,Holy Rosary Girls High,Girls,C3
+West Pokot,Extra-County,4,Kapenguria Boys High,Boys,C1
+West Pokot,Extra-County,5,Nasokol Girls Secondary,Girls,C1
+West Pokot,Extra-County,6,Ortum Secondary,Boys,C2
+West Pokot,Extra-County,7,Sook Boys Secondary,Boys,C3
+West Pokot,Extra-County,8,St. Cecilia Girls Secondary Chepareria,Girls,C1
+West Pokot,Extra-County,9,St. Comboni Amakuriat Secondary,Boys,C2
+West Pokot,Extra-County,10,St. Stephen Laikong Girls Secondary,Girls,C3
+West Pokot,Extra-County,11,Weiwei Secondary,Boys,C2
+West Pokot,County,1,[Coverage gap - see note],null,null
+Samburu,National,1,Kisima Girls High School,Girls,null
+Samburu,National,2,Maralal High School,Boys,null
+Samburu,Extra-County,1,A I C Moi Girls Samburu,Girls,C2
+Samburu,Extra-County,2,Baragoi Boys Secondary,Boys,C3
+Samburu,Extra-County,3,Baragoi Girls Secondary,Girls,C2
+Samburu,Extra-County,4,Nyiro Boys Secondary,Boys,C2
+Samburu,Extra-County,5,P.C.E.A Tum Girls Secondary,Girls,C3
+Samburu,Extra-County,6,Uaso Boys Secondary,Boys,C3
+Samburu,Extra-County,7,Wamba Boys Secondary,Boys,C2
+Samburu,Extra-County,8,Wamba Girls Secondary,Girls,C3
+Samburu,County,1,Kirisia High,Boys,null
+Samburu,County,2,Tipito Girls,Girls,null
+Samburu,County,3,Uaso Girls,Girls,null
+Trans Nzoia,National,1,St Anthony's Boys' High School,Boys,null
+Trans Nzoia,National,2,St Brigids Kiminini,Girls,null
+Trans Nzoia,National,3,St Joseph's Boys High School,Boys,null
+Trans Nzoia,Extra-County,1,A.I.C Moi Boys High School Kaplamai,Boys,C3
+Trans Nzoia,Extra-County,2,AIC Kipkeikei Boys High,Boys,C3
+Trans Nzoia,Extra-County,3,Boma Boys' High School,Boys,C1
+Trans Nzoia,Extra-County,4,Friends Bwake Boys School,Boys,C2
+Trans Nzoia,Extra-County,5,Friends Bwake Girls Secondary,Girls,C3
+Trans Nzoia,Extra-County,6,Goseta Boys High,Boys,C1
+Trans Nzoia,Extra-County,7,Immaculate Conception Boys High School Mukuyu,Boys,C3
+Trans Nzoia,Extra-County,8,Kabuyefwe Friends Girls Secondary,Girls,C1
+Trans Nzoia,Extra-County,9,Kabuyefwe Friends Secondary,Boys,C1
+Trans Nzoia,Extra-County,10,Kitale School-Secondary,Girls,C1
+Trans Nzoia,Extra-County,11,Kwanza Girls High School,Girls,C2
+Trans Nzoia,Extra-County,12,St Joseph's Girls' High School Kitale,Girls,C1
+Trans Nzoia,Extra-County,13,St Mark's High School Cherangani,Boys,C1
+Trans Nzoia,Extra-County,14,St. Mark's Girls High School,Girls,C1
+Trans Nzoia,Extra-County,15,St. Monica's Girls High School Kitale,Girls,C1
+Trans Nzoia,Extra-County,16,St.Anthony's Boys' High School Kitale,Boys,C1
+Trans Nzoia,Extra-County,17,St.Pauls Kitum High School,Boys,C2
+Uasin Gishu,National,1,Moi Girls Eldoret,Girls,null
+Uasin Gishu,National,2,St. Teresa's Girls,Girls,null
+Uasin Gishu,National,3,Wareng High School,Boys,null
+Uasin Gishu,Extra-County,1,A.I.C. Chebisaas Boys Secondary,Boys,C1
+Uasin Gishu,Extra-County,2,ACK St. Lukes Cheptiret School,Boys,C2
+Uasin Gishu,Extra-County,3,Arnesen's High School,Boys,C1
+Uasin Gishu,Extra-County,4,Cheplaskei Secondary,Boys,C3
+Uasin Gishu,Extra-County,5,Drys Girls Secondary,Girls,C1
+Uasin Gishu,Extra-County,6,Hill School Eldoret,Girls,C1
+Uasin Gishu,Extra-County,7,Kamagut High School,Mixed,C1
+Uasin Gishu,Extra-County,8,Kapkoiga Girls Secondary,Girls,C2
+Uasin Gishu,Extra-County,9,Kapngetuny High School,Boys,C1
+Uasin Gishu,Extra-County,10,Kerotet Girls Secondary,Girls,C3
+Uasin Gishu,Extra-County,11,Kipkabus Secondary,Boys,C2
+Uasin Gishu,Extra-County,12,Kipsangui Secondary,Boys,C2
+Uasin Gishu,Extra-County,13,Loreto High School Matunda,Girls,C1
+Uasin Gishu,Extra-County,14,Moiben High School,Boys,C2
+Uasin Gishu,Extra-County,15,Ngeria Secondary,Girls,C2
+Uasin Gishu,Extra-County,16,Paul Boit Boys Secondary,Boys,C1
+Uasin Gishu,Extra-County,17,Plateau Secondary,Girls,C3
+Uasin Gishu,Extra-County,18,Seko Girls Secondary,Girls,C1
+Uasin Gishu,Extra-County,19,Simat Secondary,Mixed,C3
+Uasin Gishu,Extra-County,20,St Catherine Girls Secondary Kesses,Girls,C2
+Uasin Gishu,Extra-County,21,Sugoi Girls Secondary,Girls,C2
+Uasin Gishu,Extra-County,22,Turbo Girls Secondary,Girls,C1
+Elgeyo-Marakwet,National,1,Moi Girls Kapsowar,Girls,null
+Elgeyo-Marakwet,National,2,St. Patrick's High School Iten,Boys,null
+Elgeyo-Marakwet,National,3,Tartar Girls / St. Theresa's,Girls,null
+Elgeyo-Marakwet,Extra-County,1,AIC Girls Secondary School Kessup,Girls,C2
+Elgeyo-Marakwet,Extra-County,2,Chebara Secondary,Boys,C1
+Elgeyo-Marakwet,Extra-County,3,Kapkenda Girls' High,Girls,C1
+Elgeyo-Marakwet,Extra-County,4,Kapsowar Boys' Secondary,Boys,C3
+Elgeyo-Marakwet,Extra-County,5,Kipsaos Secondary,Boys,C3
+Elgeyo-Marakwet,Extra-County,6,Kipsoen Secondary,Boys,C2
+Elgeyo-Marakwet,Extra-County,7,Metkei Secondary,Girls,C1
+Elgeyo-Marakwet,Extra-County,8,Mokwo Girls Secondary,Girls,C3
+Elgeyo-Marakwet,Extra-County,9,Our Lady of Glory-Kaptagat Girls High,Girls,C1
+Elgeyo-Marakwet,Extra-County,10,Sambirir Girls Secondary,Girls,C2
+Elgeyo-Marakwet,Extra-County,11,Santa Maria Girls Secondary,Girls,C2
+Elgeyo-Marakwet,Extra-County,12,Simotwo Secondary,Boys,C2
+Elgeyo-Marakwet,Extra-County,13,Sing'ore Girls Secondary,Girls,C1
+Elgeyo-Marakwet,Extra-County,14,St. Peter's Marakwet Boys Secondary,Boys,C2
+Elgeyo-Marakwet,Extra-County,15,Tambach Boys High School,Boys,C1
+Elgeyo-Marakwet,Extra-County,16,Yemit Boys High School,Boys,C2
+Elgeyo-Marakwet,Extra-County,17,Yemit Girls' Secondary,Girls,C3
+Nandi,National,1,Kapnyeberai Girls School,Girls,null
+Nandi,National,2,Kapsabet Boys High School,Boys,null
+Nandi,National,3,Kapsabet Secondary School for the Deaf,SNE,null
+Nandi,National,4,Meteitei Boys High,Boys,null
+Nandi,National,5,Samoei Boys High School,Boys,null
+Nandi,National,6,St Joseph's Girls Chepterit High School,Girls,null
+Nandi,Extra-County,1,ACK St. Mark's Kaptumo Boys High,Boys,C2
+Nandi,Extra-County,2,AIC Chebisaas Girls Secondary,Girls,C1
+Nandi,Extra-County,3,Aldai Girls Secondary,Girls,C1
+Nandi,Extra-County,4,Cheptil Secondary,Mixed,C2
+Nandi,Extra-County,5,Holy Rosary Girls' Secondary,Girls,C3
+Nandi,Extra-County,6,Itigo Girls Secondary,Girls,C1
+Nandi,Extra-County,7,Kapkolei Girls Secondary,Girls,C2
+Nandi,Extra-County,8,Kapsabet Girls High,Girls,C1
+Nandi,Extra-County,9,Kemeloi Boys Secondary,Boys,C1
+Nandi,Extra-County,10,Kilibwoni High,Boys,C2
+Nandi,Extra-County,11,Kipsigak High,Boys,C2
+Nandi,Extra-County,12,Kurgung Secondary,Boys,C1
+Nandi,Extra-County,13,Laboret Boys High,Boys,C1
+Nandi,Extra-County,14,Lelmokwo High,Boys,C1
+Nandi,Extra-County,15,Lelwak Secondary,Boys,C3
+Nandi,Extra-County,16,Meteitei Boys Secondary,Boys,C1
+Nandi,Extra-County,17,Ndalat Gaa Girls' Secondary,Girls,C2
+Nandi,Extra-County,18,Our Lady of Peace Girls' Secondary,Girls,C3
+Nandi,Extra-County,19,Our Lady of Victory Girls Kapnyeb,Girls,C1
+Nandi,Extra-County,20,Samoei Boys Secondary,Boys,C1
+Nandi,Extra-County,21,Serem Secondary,Boys,C2
+Nandi,Extra-County,22,St.Mary's Tach Asis Girls Secondary,Girls,C3
+Nandi,Extra-County,23,Stephen Kositany Girls' High,Girls,C1
+Nandi,Extra-County,24,Terige Secondary,Boys,C1
+Nandi,Extra-County,25,Tulwo Girls High,Girls,C3
+Baringo,National,1,Baringo Boys High School,Boys,null
+Baringo,National,2,Kabarnet High School,Boys,null
+Baringo,National,3,Kapropita High School,Girls,null
+Baringo,National,4,Ossen Secondary School,Girls,null
+Baringo,Extra-County,1,Bartolimo Secondary,Boys,C2
+Baringo,Extra-County,2,Eldama Ravine Girls High,Girls,C1
+Baringo,Extra-County,3,Emining Secondary,Boys,C1
+Baringo,Extra-County,4,Kabarnet High School,Boys,C1
+Baringo,Extra-County,5,Kabimoi High School,Boys,C2
+Baringo,Extra-County,6,Kapropita Girls High,Girls,C1
+Baringo,Extra-County,7,Kimngorom Girls High,Girls,C3
+Baringo,Extra-County,8,Kisanana Boys High,Boys,C3
+Baringo,Extra-County,9,Kituro High School,Mixed,C2
+Baringo,Extra-County,10,Marigat Secondary,Boys,C2
+Baringo,Extra-County,11,Mogotio High School,Girls,C1
+Baringo,Extra-County,12,Moi High School Kabartonjo,Boys,C3
+Baringo,Extra-County,13,Ossen Secondary,Girls,C2
+Baringo,Extra-County,14,Pemwai Girls' Secondary,Girls,C2
+Baringo,Extra-County,15,Poror High School,Boys,C1
+Baringo,Extra-County,16,Ruth Kiptui Girls High School Kasok,Girls,C2
+Baringo,Extra-County,17,Saos Secondary,Boys,C3
+Baringo,Extra-County,18,Solian Girls High School,Girls,C2
+Baringo,Extra-County,19,Tabagon Girls' Secondary,Girls,C3
+Baringo,Extra-County,20,Tenges Secondary,Boys,C2
+Baringo,Extra-County,21,Toniok Secondary,Girls,C2
+Laikipia,National,1,G.G. Rumaruti Secondary School,Boys,null
+Laikipia,National,2,Gatero Girls High School,Girls,null
+Laikipia,National,3,Nanyuki High School,Boys,null
+Laikipia,National,4,Ndururumo High School,Mixed,null
+Laikipia,National,5,Njonjo Girls Senior School,Girls,null
+Laikipia,National,6,Nyahururu Girls School,Girls,null
+Laikipia,Extra-County,1,Doldol Secondary,Boys,C2
+Laikipia,Extra-County,2,G.G Rumuruti Secondary,Boys,C1
+Laikipia,Extra-County,3,Gatero Girls High,Girls,C1
+Laikipia,Extra-County,4,Loise Nanyuki Girls' Secondary,Girls,C1
+Laikipia,Extra-County,5,Mwenje Mixed Secondary,Mixed,C2
+Laikipia,Extra-County,6,Ndururi Secondary,Mixed,C3
+Laikipia,Extra-County,7,Ndururumo High School,Mixed,C1
+Laikipia,Extra-County,8,Ngumo Boys Secondary,Boys,C3
+Laikipia,Extra-County,9,Njorua High School,Mixed,C3
+Laikipia,Extra-County,10,St Francis Girls Secondary,Girls,C3
+Laikipia,Extra-County,11,St Jude Nturukuma Secondary,Girls,C3
+Laikipia,Extra-County,12,Tigithi Secondary,Boys,C2
+Nakuru,National,1,Jomo Kenyatta Boys High School,Boys,null
+Nakuru,National,2,Mary Mount Secondary,Girls,null
+Nakuru,National,3,Moi Forces Academy-Lanet,null,null
+Nakuru,National,4,Moi High School Kabarak,null,null
+Nakuru,National,5,Naivasha Girls Secondary,Girls,null
+Nakuru,National,6,Nakuru Boys High School,Boys,null
+Nakuru,National,7,Nakuru Girls High School,Girls,null
+Nakuru,National,8,Ngala Secondary School for the Deaf,SNE,null
+Nakuru,National,9,Njoro Boys High School,Boys,null
+Nakuru,National,10,St. Bakhita Bahati Girls Secondary,Girls,null
+Nakuru,National,11,Utumishi Boys Academy,Boys,null
+Nakuru,National,12,Utumishi Girls Academy,Girls,null
+Nakuru,Extra-County,1,AIC Morop Girls' Secondary,Girls,C2
+Nakuru,Extra-County,2,Bahati PCEA Secondary,Girls,C3
+Nakuru,Extra-County,3,Elburgon Secondary,Mixed,C3
+Nakuru,Extra-County,4,Jomo Kenyatta Boys High School,Boys,C1
+Nakuru,Extra-County,5,Jomo Kenyatta Girls High School,Girls,C1
+Nakuru,Extra-County,6,Keringet Secondary,Mixed,C3
+Nakuru,Extra-County,7,Kirobon Boys' High,Boys,C2
+Nakuru,Extra-County,8,Kirobon Girls Secondary,Girls,C2
+Nakuru,Extra-County,9,Koelel Secondary,Boys,C1
+Nakuru,Extra-County,10,Lake Naivasha Girls Secondary,Girls,C2
+Nakuru,Extra-County,11,Larmudiac Secondary,Mixed,C2
+Nakuru,Extra-County,12,Maai-Mahiu Boys Secondary,Boys,C3
+Nakuru,Extra-County,13,Maai-Mahiu Girls Secondary,Girls,C3
+Nakuru,Extra-County,14,Mary Mount Secondary,Girls,C1
+Nakuru,Extra-County,15,Michinda Secondary,Boys,C2
+Nakuru,Extra-County,16,Molo Academy,Boys,C1
+Nakuru,Extra-County,17,Naivasha Girls Secondary,Girls,C1
+Nakuru,Extra-County,18,Naivasha High School,Boys,C1
+Nakuru,Extra-County,19,Njoro Boys High School,Boys,C1
+Nakuru,Extra-County,20,Njoro Girls' Secondary,Girls,C1
+Nakuru,Extra-County,21,Solai Boys' Secondary,Boys,C2
+Nakuru,Extra-County,22,St. Bakhita Bahati Girls Secondary,Girls,C1
+Narok,National,1,Kilgoris Boys Secondary School,Boys,null
+Narok,National,2,Narok High School,Boys,null
+Narok,National,3,Ole Tipis Girls Secondary School,Girls,null
+Narok,Extra-County,1,Emurua Dikirr Secondary,Boys,C3
+Narok,Extra-County,2,Kilgoris Girls Secondary,Girls,C2
+Narok,Extra-County,3,Maasai Girls Secondary,Girls,C1
+Narok,Extra-County,4,Moi Naikarra Secondary,Mixed,C3
+Narok,Extra-County,5,Narok High School,Boys,C2
+Narok,Extra-County,6,Nkorkorri Boys Secondary,Boys,C3
+Narok,Extra-County,7,Ololulung'a Secondary,Boys,C2
+Narok,Extra-County,8,Oloomirani Boys Secondary,Boys,C3
+Narok,Extra-County,9,St. Mary's Girls Secondary School-Narok,Girls,C3
+Kajiado,National,1,Moi Girls Isinya,Girls,null
+Kajiado,National,2,Naisula School,null,null
+Kajiado,National,3,Olkejuado High School,Boys,null
+Kajiado,National,4,Oloolaiser High School,Boys,null
+Kajiado,Extra-County,1,Baraka Oontoyie Secondary,Girls,C2
+Kajiado,Extra-County,2,Enoomatasiani Girls Secondary,Girls,C3
+Kajiado,Extra-County,3,Kiluani Newlife Secondary,Boys,C3
+Kajiado,Extra-County,4,Najile Boys Secondary,Boys,C3
+Kajiado,Extra-County,5,Nakeel Secondary,Boys,C1
+Kajiado,Extra-County,6,Noonkopir Girls Secondary,Girls,C1
+Kajiado,Extra-County,7,Olkejuado High School,Boys,C1
+Kajiado,Extra-County,8,Oloitokitok Secondary,Boys,C1
+Kajiado,Extra-County,9,Olooseos Secondary,Girls,C3
+Kajiado,County,1,Ewuaso Girls Secondary Boarding,Girls,null
+Kajiado,County,2,General Joseph Nkaissery High,null,null
+Kajiado,County,3,Ilbissil Girls Secondary,Girls,null
+Kajiado,County,4,Ilkisonko Secondary,Boys,null
+Kajiado,County,5,Iloodokilani Secondary,Mixed,null
+Kajiado,County,6,Lenkisem Mixed Boarding,Mixed,null
+Kajiado,County,7,Maparasha Secondary,Mixed,null
+Kajiado,County,8,Mashuuru Secondary,Boys,null
+Kajiado,County,9,Meto Secondary,Mixed,null
+Kajiado,County,10,Namelok Secondary,Mixed,null
+Kajiado,County,11,Ngatataek Mixed Secondary,Mixed,null
+Kajiado,County,12,Nkoile Boys High School,Boys,null
+Kajiado,County,13,PCEA Ilngarooj Boys Secondary,Boys,null
+Kajiado,County,14,Rombo Girls' Boarding Secondary,Girls,null
+Kajiado,County,15,Sajiloni Girls Secondary,Girls,null
+Kajiado,County,16,Thomas Fish Secondary,Mixed,null
+Kericho,National,1,A.I.C Litein Girls' High,Girls,null
+Kericho,National,2,Kabianga High School,Boys,null
+Kericho,National,3,Kipsigis Girls' High School,Girls,null
+Kericho,National,4,Litein High School,Boys,null
+Kericho,National,5,Moi Tea Girls' High School,Girls,null
+Kericho,National,6,Tengecha Boys High School,Boys,null
+Kericho,National,7,Tengecha Girls' High School,Girls,null
+Kericho,Extra-County,1,A.I.C Litein Girls Secondary,Girls,C1
+Kericho,Extra-County,2,Cheborge Boys High,Boys,C3
+Kericho,Extra-County,3,Chebwagan Secondary,Boys,C3
+Kericho,Extra-County,4,Chelilis Girls Secondary,Girls,C2
+Kericho,Extra-County,5,Chepkoton Girls Secondary,Girls,C3
+Kericho,Extra-County,6,Cheptenye Secondary,Boys,C2
+Kericho,Extra-County,7,Kaborok Girls High,Girls,C3
+Kericho,Extra-County,8,Kericho High School,Boys,C1
+Kericho,Extra-County,9,Kericho Tea Secondary,Boys,C2
+Kericho,Extra-County,10,Kipkelion Girls' High,Girls,C1
+Kericho,Extra-County,11,Korongoi Girls' Secondary,Girls,C2
+Kericho,Extra-County,12,Litein High School,Boys,C1
+Kericho,Extra-County,13,Londiani Boys Secondary,Boys,C1
+Kericho,Extra-County,14,Londiani Girls' Secondary,Girls,C1
+Kericho,Extra-County,15,Moi Kipsitet Girls Secondary,Girls,C2
+Kericho,Extra-County,16,Moi Tea Girls Secondary,Girls,C1
+Kericho,Extra-County,17,Sacred Hill Girls' High School-Londiani,Girls,C1
+Kericho,Extra-County,18,Soliat Boys' Secondary,Boys,C2
+Kericho,Extra-County,19,Sosiot Girls' Secondary,Girls,C1
+Kericho,Extra-County,20,Tengecha Boys High,Boys,C1
+Kericho,Extra-County,21,Tengecha Girls Secondary,Girls,C1
+Bomet,National,1,Kaplong Boys' High School,Boys,null
+Bomet,National,2,Kaplong Girls' Secondary School,Girls,null
+Bomet,National,3,Moi Siongiroi Girls' Secondary,Girls,null
+Bomet,National,4,Tenwek Boys High School,Boys,null
+Bomet,Extra-County,1,Boito Secondary,Boys,C2
+Bomet,Extra-County,2,Chebilat Secondary,Boys,C2
+Bomet,Extra-County,3,Chepalungu Boys' High,Boys,C3
+Bomet,Extra-County,4,Kaboson Girls Secondary,Girls,C3
+Bomet,Extra-County,5,Kabungut Secondary,Boys,C3
+Bomet,Extra-County,6,Kaplong Boys High School,Boys,C2
+Bomet,Extra-County,7,Kimulot Secondary,Boys,C1
+Bomet,Extra-County,8,Koiwa Boys High,Boys,C1
+Bomet,Extra-County,9,Longisa High School,Boys,C3
+Bomet,Extra-County,10,Moi Siongiroi Girls' Secondary,Girls,C1
+Bomet,Extra-County,11,Ndanai Secondary,Girls,C3
+Bomet,Extra-County,12,Saseta Girls' Secondary,Girls,C1
+Kakamega,National,1,ACK Ematundu Boys Sec. and Vocational School,SNE,null
+Kakamega,National,2,Butere Girls High School,Girls,null
+Kakamega,National,3,Kakamega School,Boys,null
+Kakamega,National,4,Musingu Boys High School,Boys,null
+Kakamega,National,5,St. Angela Mumias Vocational for the Deaf,SNE,null
+Kakamega,National,6,St. Peter's Mumias Boys High School,Boys,null
+Kakamega,National,7,The Sacred Heart Girls Mukumu,Girls,null
+Kakamega,Extra-County,1,Archbishop Njenga Girls' High,Girls,C1
+Kakamega,Extra-County,2,Bishop Sulumeti Girls Secondary,Girls,C3
+Kakamega,Extra-County,3,Butere Boys High School,Boys,C1
+Kakamega,Extra-County,4,Chebuyusi Boys High,Boys,C1
+Kakamega,Extra-County,5,Eregi Girls High School,Girls,C2
+Kakamega,Extra-County,6,Ingotse High School,Boys,C2
+Kakamega,Extra-County,7,Kivaywa Secondary,Boys,C1
+Kakamega,Extra-County,8,Lubinu Secondary,Boys,C1
+Kakamega,Extra-County,9,Lugari Secondary,Boys,C2
+Kakamega,Extra-County,10,Malava Boys High School,Boys,C2
+Kakamega,Extra-County,11,Mary Seat of Wisdom Bulimbo Girls Secondary,Girls,C2
+Kakamega,Extra-County,12,Mautuma Secondary,Boys,C3
+Kakamega,Extra-County,13,Moi Girls' Secondary-Nangili,Girls,C2
+Kakamega,Extra-County,14,Musingu Boys High School,Boys,C1
+Kakamega,Extra-County,15,Musoli Girls High School,Girls,C1
+Kakamega,Extra-County,16,Mwihila High School,Boys,C1
+Kakamega,Extra-County,17,Shanderema Secondary,Boys,C3
+Kakamega,Extra-County,18,Shikunga Secondary,Mixed,C1
+Kakamega,Extra-County,19,St John The Baptist Likuyani Secondary,Boys,C1
+Kakamega,Extra-County,20,St. Agnes Girls High School Shibuye,Girls,C3
+Kakamega,Extra-County,21,St. Mary's Mumias Girls High,Girls,C1
+Kakamega,Extra-County,22,St. Mathias Kholera Boys Secondary,Boys,C1
+Kakamega,Extra-County,23,St. Peter's Mumias Boys' High,Boys,C1
+Kakamega,Extra-County,24,St.Anne's Nzoia Girls' Secondary,Girls,C3
+Kakamega,Extra-County,25,St.Ignatius Mukumu Boys High,Boys,C2
+Kakamega,Extra-County,26,The Sacred Heart Girls Mukumu,Girls,C1
+Vihiga,National,1,Bunyore Girls,Girls,null
+Vihiga,National,2,Chavakali High School,Boys,null
+Vihiga,National,3,Friends School Keveye Girls,Girls,null
+Vihiga,National,4,Nyang'ori Boys High School,Boys,null
+Vihiga,National,5,St. Claire Ebukuyia for the Hearing Impaired,SNE,null
+Vihiga,Extra-County,1,Ebusakami Girls Secondary,Girls,C2
+Vihiga,Extra-County,2,Emusire High School,Boys,C1
+Vihiga,Extra-County,3,Friends School Kaimosi Boys Secondary,Boys,C3
+Vihiga,Extra-County,4,Friends School Kaimosi Girls,Girls,C1
+Vihiga,Extra-County,5,Friends School Keveye Girls,Girls,C1
+Vihiga,Extra-County,6,Friends School Mbale,Boys,C1
+Vihiga,Extra-County,7,Goibei Girls High,Girls,C2
+Vihiga,Extra-County,8,Hobunaka Secondary,Boys,C3
+Vihiga,Extra-County,9,Igunga Girls' High,Girls,C2
+Vihiga,Extra-County,10,Madira Girls' High,Girls,C3
+Vihiga,Extra-County,11,Moi Girls' Secondary-Vokoli,Girls,C1
+Vihiga,Extra-County,12,Mudavadi Girls High,Girls,C2
+Vihiga,Extra-County,13,Nyang'ori Boys High,Boys,C1
+Vihiga,Extra-County,14,St. Clare's Maragoli Girls,Girls,C1
+Vihiga,Extra-County,15,St. Pauls Erusui Girls High,Girls,C2
+Vihiga,Extra-County,16,Tigoi Girls Secondary,Girls,C3
+Vihiga,Extra-County,17,Vihiga Friends High School,Boys,C1
+Bungoma,National,1,Cardinal Otunga Girls High School,Girls,null
+Bungoma,National,2,Friends Kamusinga,Boys,null
+Bungoma,National,3,Joyvalley S.A. Special for the Hearing Impaired,SNE,null
+Bungoma,National,4,Kibabii High School,Boys,null
+Bungoma,National,5,Lugulu Girls,Girls,null
+Bungoma,National,6,Moi Girls High School Kamusinga,Girls,null
+Bungoma,National,7,Nalondo CBM Secondary for the Physically Handicapped,SNE,null
+Bungoma,Extra-County,1,A C Butonge High School,Boys,C3
+Bungoma,Extra-County,2,Bungoma High School,Boys,C1
+Bungoma,Extra-County,3,Cardinal Otunga Girls High,Girls,C1
+Bungoma,Extra-County,4,Chebukaka Girls Secondary,Girls,C3
+Bungoma,Extra-County,5,Chesamisi Boys High,Boys,C1
+Bungoma,Extra-County,6,Chwele Girls High,Girls,C2
+Bungoma,Extra-County,7,Friends School Bokoli,Boys,C3
+Bungoma,Extra-County,8,Kamusinde Boys High,Boys,C3
+Bungoma,Extra-County,9,Kapsokwony High School,Boys,C2
+Bungoma,Extra-County,10,Khasoko High School,Boys,C2
+Bungoma,Extra-County,11,Kibabii High School,Boys,C1
+Bungoma,Extra-County,12,Kibuk Girls High,Girls,C2
+Bungoma,Extra-County,13,Moi Girls High School Kamusinga,Girls,C1
+Bungoma,Extra-County,14,Namawanga Girls,Girls,C3
+Bungoma,Extra-County,15,Ndivisi Girls High,Girls,C3
+Bungoma,Extra-County,16,St. Luke's Boys' High School Kimilili,Boys,C1
+Bungoma,Extra-County,17,St.Cecilia Girls Misikhu,Girls,C1
+Bungoma,Extra-County,18,Teremi Boys High,Boys,C1
+Busia,National,1,Butula Boys High School,Boys,null
+Busia,National,2,Nambale Secondary School,Boys,null
+Busia,National,3,S.A. Kolanya Girls Secondary School,Girls,null
+Busia,National,4,St. Brigid Secondary School and Vocational,null,null
+Busia,National,5,St. Stephen Lwanya Girls,Girls,null
+Busia,Extra-County,1,Bishop Sulumeti Chelelemuk Girls High,Girls,C3
+Busia,Extra-County,2,Busiada Girls' High,Girls,C3
+Busia,Extra-County,3,Kisoko Girls Secondary,Girls,C2
+Busia,Extra-County,4,Nambale Secondary,Boys,C1
+Busia,Extra-County,5,S.A. Kolanya Boys High School,Boys,C1
+Busia,Extra-County,6,Sigalame High School,Boys,C1
+Busia,Extra-County,7,St Mary's Mundika High,Boys,C3
+Busia,Extra-County,8,St Monica Chakol Girls' High,Girls,C2
+Busia,Extra-County,9,St. Cecilia Nangina Girls High,Girls,C1
+Busia,Extra-County,10,St. Paul's Amukura High,Boys,C2
+Busia,Extra-County,11,St. Stephens Lwanya Girls Secondary,Girls,C1
+Busia,Extra-County,12,St.Benedict's High School Budalangi,Boys,C3
+Siaya,National,1,Fr. Ouderaa Secondary School for the Visually Impaired,SNE,null
+Siaya,National,2,Maranda High,Boys,null
+Siaya,National,3,Ng'iya Girls High School,Girls,null
+Siaya,National,4,Nico Hauser Special School,SNE,null
+Siaya,National,5,Ramba Secondary,null,null
+Siaya,National,6,Sawagongo High School,Boys,null
+Siaya,National,7,St. Francis Rangala Girls Secondary,Girls,null
+Siaya,National,8,St. Mary's Lwak Girls School,Girls,null
+Siaya,National,9,St. Mary's Yala,Boys,null
+Siaya,Extra-County,1,Aluor Girls Secondary,Girls,C2
+Siaya,Extra-County,2,Ambira High School,Boys,C1
+Siaya,Extra-County,3,Barding Secondary,Boys,C1
+Siaya,Extra-County,4,Bishop Okoth Girls'-Mbaga Secondary,Girls,C1
+Siaya,Extra-County,5,Chianda High School,Boys,C1
+Siaya,Extra-County,6,Nyamira Girls Secondary,Girls,C1
+Siaya,Extra-County,7,Nyamonye Girls' Secondary,Girls,C3
+Siaya,Extra-County,8,Nyawara Girls' Secondary,Girls,C3
+Siaya,Extra-County,9,Ramba Secondary,Boys,C1
+Siaya,Extra-County,10,Rang'ala Boys Secondary,Boys,C3
+Siaya,Extra-County,11,Sawagongo High School,Boys,C1
+Siaya,Extra-County,12,Sega Girls Secondary,Girls,C2
+Siaya,Extra-County,13,Sinaga Girls Secondary,Girls,C2
+Siaya,Extra-County,14,Sirembe Mixed Secondary,Mixed,C3
+Siaya,Extra-County,15,St. Francis Ranga'la Girls Secondary,Girls,C1
+Siaya,Extra-County,16,St. Mary's Lwak Girls' School,Girls,C1
+Siaya,Extra-County,17,St. Mary's School Yala,Boys,C1
+Siaya,Extra-County,18,Ukwala Secondary,Boys,C3
+Siaya,Extra-County,19,Usenge High School,Boys,C1
+Kisumu,National,1,Joyland Special Secondary,SNE,null
+Kisumu,National,2,Kibos Visually Impaired Secondary,SNE,null
+Kisumu,National,3,Kisumu Boys High School,Boys,null
+Kisumu,National,4,Kisumu Girls High School,Girls,null
+Kisumu,National,5,Maseno School,Boys,null
+Kisumu,National,6,Nyakach Girls High School,Girls,null
+Kisumu,National,7,Sinyolo Girls Secondary,Girls,null
+Kisumu,National,8,St. George Special Secondary,SNE,null
+Kisumu,Extra-County,1,Achego Girls Secondary,Girls,C1
+Kisumu,Extra-County,2,ACK Rae Girls High,Girls,C2
+Kisumu,Extra-County,3,Ahero Girls Secondary,Girls,C2
+Kisumu,Extra-County,4,Chulaimbo Secondary,Boys,C1
+Kisumu,Extra-County,5,Kisumu Boys High School,Boys,C1
+Kisumu,Extra-County,6,Koru Girls Secondary,Girls,C1
+Kisumu,Extra-County,7,Migingo Girls Secondary,Girls,C3
+Kisumu,Extra-County,8,Miwani Secondary,Boys,C3
+Kisumu,Extra-County,9,Ngere High School,Boys,C2
+Kisumu,Extra-County,10,Nyabondo High School,Boys,C1
+Kisumu,Extra-County,11,Nyakach Girls' High,Girls,C1
+Kisumu,Extra-County,12,Onjiko High School,Boys,C1
+Kisumu,Extra-County,13,Otieno Oyoo Secondary,Boys,C2
+Kisumu,Extra-County,14,Sigoti Complex Girls Secondary,Girls,C1
+Kisumu,Extra-County,15,Sinyolo Girls Secondary,Girls,C2
+Kisumu,Extra-County,16,St. Barnabas Girls' Secondary,Girls,C2
+Kisumu,Extra-County,17,St. Stephen's Menara Secondary,Boys,C3
+Kisumu,Extra-County,18,St.Teresa's Girls Secondary,Girls,C3
+Kisumu,Extra-County,19,Thurdibuoro Mixed Secondary,Mixed,C1
+Homa Bay,National,1,Agoro Sare High School,Boys,null
+Homa Bay,National,2,Asumbi Girls,Girls,null
+Homa Bay,National,3,Bishop Linus Okok Girls Secondary,Girls,null
+Homa Bay,National,4,Homa Bay High School,Boys,null
+Homa Bay,National,5,Lambwe Special Secondary for the Hearing Impaired,SNE,null
+Homa Bay,National,6,Mbita High School,Boys,null
+Homa Bay,National,7,Ogande Girls High School,Girls,null
+Homa Bay,National,8,Orero Boys Secondary School,Boys,null
+Homa Bay,Extra-County,1,Agoro Sare High School,Boys,C1
+Homa Bay,Extra-County,2,Ambassador Pamela Mboya Girls Secondary,Girls,C3
+Homa Bay,Extra-County,3,Bishop Linus Okok Girls' Secondary,Girls,C1
+Homa Bay,Extra-County,4,Dudi Girls Secondary,Girls,C1
+Homa Bay,Extra-County,5,Gendia Secondary,Boys,C2
+Homa Bay,Extra-County,6,Homa Bay High School,Boys,C1
+Homa Bay,Extra-County,7,Kuoyo Kochia Secondary,Boys,C3
+Homa Bay,Extra-County,8,Magina Girls Secondary,Girls,C3
+Homa Bay,Extra-County,9,Mawego Secondary,Girls,C2
+Homa Bay,Extra-County,10,Mirogi Boys' High,Boys,C2
+Homa Bay,Extra-County,11,Mirogi Girls Secondary,Girls,C2
+Homa Bay,Extra-County,12,Moi Girls' Secondary Sindo,Girls,C1
+Homa Bay,Extra-County,13,Nyamasare Girls' Secondary,Girls,C3
+Homa Bay,Extra-County,14,Ober Secondary,Boys,C3
+Homa Bay,Extra-County,15,Ogande Girls' High,Girls,C1
+Homa Bay,Extra-County,16,Orero Boys Secondary,Boys,C1
+Homa Bay,Extra-County,17,Oriwo Boys High School,Boys,C1
+Homa Bay,Extra-County,18,Our Lady Of Mercy Ringa Boys Secondary,Boys,C1
+Homa Bay,Extra-County,19,Ratang'a Secondary,Boys,C1
+Homa Bay,Extra-County,20,St.Gabriel's Gwassi Girls Secondary,Girls,C1
+Homa Bay,Extra-County,21,Tom Mboya Secondary,Boys,C2
+Homa Bay,Extra-County,22,Tonga Boys Secondary,Boys,C1
+Homa Bay,Extra-County,23,Wang'apala Secondary,Boys,C2
+Migori,National,1,Kadika Girls Secondary School,Girls,null
+Migori,National,2,Kanga High,Boys,null
+Migori,National,3,Kuja Special School for the Deaf,SNE,null
+Migori,National,4,Moi Nyabohanse Girls School,Girls,null
+Migori,National,5,St. Alberts Girls High School Ulanda,Girls,null
+Migori,National,6,St. Joseph's Rapogi Secondary School,Boys,null
+Migori,National,7,Tarang'anya Boys High School,Boys,null
+Migori,Extra-County,1,Anjego Mixed Secondary,Mixed,C1
+Migori,Extra-County,2,Bande Girls Secondary,Girls,C2
+Migori,Extra-County,3,Bware Secondary,Mixed,C2
+Migori,Extra-County,4,Ikerege Mixed Secondary,Mixed,C2
+Migori,Extra-County,5,Isibania Boys Secondary,Boys,C1
+Migori,Extra-County,6,Kadika Girls' Secondary,Girls,C1
+Migori,Extra-County,7,Kangeso Secondary,Boys,C2
+Migori,Extra-County,8,Kanyawanga Secondary,Boys,C1
+Migori,Extra-County,9,Koderobara Secondary,Boys,C1
+Migori,Extra-County,10,Migori Secondary,Boys,C1
+Migori,Extra-County,11,Moi Suba Girls Secondary,Girls,C2
+Migori,Extra-County,12,Nyabisawa Girls Secondary,Girls,C1
+Migori,Extra-County,13,Nyaroha Girls Secondary,Girls,C3
+Migori,Extra-County,14,Oyugi Ogango Girls' Secondary,Girls,C2
+Migori,Extra-County,15,Pe-Hill High School,Boys,C3
+Migori,Extra-County,16,Sori Secondary,Boys,C1
+Migori,Extra-County,17,St Joseph's Rapogi Secondary,Boys,C1
+Migori,Extra-County,18,St Mary's Mabera Girls Secondary,Girls,C2
+Migori,Extra-County,19,St Peter's Abwao Secondary,Boys,C3
+Migori,Extra-County,20,St. Albert's Girls High School Ulanda,Girls,C1
+Migori,Extra-County,21,St. Angela Merici Isibania Girls' Secondary,Girls,C2
+Migori,Extra-County,22,St. Mary Gorrety's Dede Girls Secondary,Girls,C2
+Migori,Extra-County,23,St. Pius Uriri High School,Boys,C1
+Migori,Extra-County,24,Tarang'anya Boys High School,Boys,C1
+Kisii,National,1,Gianchere Friends Secondary/Voc for the Hearing Impaired,SNE,null
+Kisii,National,2,Kereri Girls High School,Girls,null
+Kisii,National,3,Kisii High,Boys,null
+Kisii,National,4,Nyabururu Girls,Girls,null
+Kisii,National,5,Riokindo Boys,Boys,null
+Kisii,Extra-County,1,Bishop Charles Mugendi Secondary,Mixed,C3
+Kisii,Extra-County,2,Cardinal Otunga High School-Mosocho,Boys,C1
+Kisii,Extra-County,3,E L C K Itierio Boys High,Boys,C2
+Kisii,Extra-County,4,E L C K Itierio Girls Secondary,Girls,C2
+Kisii,Extra-County,5,Itibo Boys High School,Boys,C2
+Kisii,Extra-County,6,Itibo Girls Secondary,Girls,C2
+Kisii,Extra-County,7,Kereri Girls High School,Girls,C1
+Kisii,Extra-County,8,Moi Gesusu High School,Boys,C1
+Kisii,Extra-County,9,Nduru Boys High School,Boys,C3
+Kisii,Extra-County,10,Nduru Girls' Secondary,Girls,C3
+Kisii,Extra-County,11,Nyamache Secondary,Boys,C3
+Kisii,Extra-County,12,Nyamagwa SDA Secondary,Mixed,C2
+Kisii,Extra-County,13,Nyanchwa Boys High School,Boys,C2
+Kisii,Extra-County,14,Nyanchwa Girls Secondary,Girls,C1
+Kisii,Extra-County,15,Nyangoge Girls Secondary,Girls,C3
+Kisii,Extra-County,16,Riokindo High School,Boys,C1
+Kisii,Extra-County,17,Sameta High School,Boys,C2
+Kisii,Extra-County,18,St. Charles Lwanga Ichuni Girls High,Girls,C1
+Kisii,Extra-County,19,St. Mary's Nyamagwa Girls Secondary,Girls,C2
+Kisii,Extra-County,20,St. Theresa's Nyangusu Girls Secondary,Girls,C2
+Kisii,Extra-County,21,St.Angela Sengera Girls Secondary,Girls,C2
+Kisii,Extra-County,22,St.Johns Nyamagwa Boys,Boys,C2
+Kisii,Extra-County,23,St.Joseph's Nyabigena Boys Secondary,Boys,C3
+Kisii,Extra-County,24,St.Paul's Igonga Secondary,Boys,C1
+Kisii,Extra-County,25,Suneka Secondary,Girls,C2
+Kisii,Extra-County,26,Tabaka Secondary,Boys,C2
+Nyamira,National,1,Kebirigo High School,Boys,null
+Nyamira,National,2,Nyambaria High School,Boys,null
+Nyamira,National,3,Sironga Girls High School,Girls,null
+Nyamira,Extra-County,1,Gesiaga Secondary,Mixed,C1
+Nyamira,Extra-County,2,Kebabe Girls Secondary,Girls,C2
+Nyamira,Extra-County,3,Kebirigo High School,Boys,C1
+Nyamira,Extra-County,4,Marindi Secondary,Mixed,C2
+Nyamira,Extra-County,5,Matongo Boys High School,Boys,C3
+Nyamira,Extra-County,6,Menyenya S.D.A High School,Mixed,C1
+Nyamira,Extra-County,7,Mwongori Secondary,Mixed,C2
+Nyamira,Extra-County,8,Nyaikuro High School,Mixed,C1
+Nyamira,Extra-County,9,Nyakongo High School,Boys,C3
+Nyamira,Extra-County,10,Nyamira Boys High School,Boys,C1
+Nyamira,Extra-County,11,Nyamiranga Secondary,Mixed,C2
+Nyamira,Extra-County,12,Nyansabakwa Secondary,Boys,C2
+Nyamira,Extra-County,13,Nyansiongo High School,Boys,C2
+Nyamira,Extra-County,14,Our Lady Of Mercy Rangenyo Girls Secondary,Girls,C3
+Nyamira,Extra-County,15,St Mathias Mulumba Secondary,Girls,C3
+Nyamira,Extra-County,16,St Paul's Gekano Boys High School,Boys,C1
+Nyamira,Extra-County,17,St. Cyprian Biticha Secondary,Mixed,C2
+Nyamira,Extra-County,18,St. Paul's Nyandoche Secondary,Girls,C1
+Nyamira,Extra-County,19,St. Peter's Nyakemincha Secondary,Mixed,C1
+Nyamira,Extra-County,20,Tombe Girls High School,Girls,C2
+Nairobi,National,1,Buruburu Girls Secondary,Girls,null
+Nairobi,National,2,Kasarani Tree Side for the Deaf,SNE,null
+Nairobi,National,3,Kenya High School,Girls,null
+Nairobi,National,4,Lenana School,Boys,null
+Nairobi,National,5,Moi Forces Academy,Mixed,null
+Nairobi,National,6,Moi Girls Secondary,Girls,null
+Nairobi,National,7,Nairobi School,Boys,null
+Nairobi,National,8,Pangani Girls,Girls,null
+Nairobi,National,9,Precious Blood Riruta,Girls,null
+Nairobi,National,10,St Georges Girls,Girls,null
+Nairobi,National,11,Starehe Boys' Centre,Boys,null
+Nairobi,National,12,Starehe Girls Centre,Girls,null
+Nairobi,National,13,State House Girls,Girls,null
+Nairobi,Extra-County,1,Aquinas High School,Boys,C1
+Nairobi,Extra-County,2,Buruburu Girls Secondary,Girls,C1
+Nairobi,Extra-County,3,Dagoretti High School,Boys,C2
+Nairobi,Extra-County,4,Highridge Girls Boarding Secondary,Girls,C3
+Nairobi,Extra-County,5,Highway Secondary,Boys,C2
+Nairobi,Extra-County,6,Hospital Hill High School,Boys,C2
+Nairobi,Extra-County,7,Huruma Girls' High,Girls,C3
+Nairobi,Extra-County,8,Jamhuri High School,Boys,C2
+Nairobi,Extra-County,9,Moi Girls' School Nairobi,Girls,C1
+Nairobi,Extra-County,10,Muhuri Muchiri Boys High,Boys,C3
+Nairobi,Extra-County,11,Nembu Girls High,Girls,C1
+Nairobi,Extra-County,12,Ngara Girls' High,Girls,C1
+Nairobi,Extra-County,13,Ofafa Jericho High,Boys,C1
+Nairobi,Extra-County,14,Our Lady of Mercy Secondary South B,Girls,C3
+Nairobi,Extra-County,15,Parklands Arya Girls High,Girls,C3
+Nairobi,Extra-County,16,Precious Blood Riruta,Girls,C1
+Nairobi,Extra-County,17,Pumwani Secondary,Boys,C1
+Nairobi,Extra-County,18,St Anne's Girls' Secondary,Girls,C2
+Nairobi,Extra-County,19,St. George's Girls' Secondary,Girls,C1
+Nairobi,Extra-County,20,Statehouse Girls High,Girls,C1
+Nairobi,Extra-County,21,Uhuru Secondary,Boys,C3
+Nairobi,Extra-County,22,Upper Hill School,Boys,C1
+Nairobi,County,1,County Girls,Girls,null
+Nairobi,County,2,Embakasi Girls,Girls,null
+Nairobi,County,3,Kangemi High School,Boys,null
+Nairobi,County,4,Karen C. Girls,Girls,null
+Nairobi,County,5,Langata High School,Boys,null
+Nairobi,County,6,Lavington Secondary,Girls,null
+Nairobi,County,7,Maina Wanjigi Sec,Girls,null
+Nairobi,County,8,Makongeni High School,null,null
+Nairobi,County,9,Mutuini Secondary,Boys,null
+Nairobi,County,10,Nairobi Milimani,Boys,null
+Nairobi,County,11,Nile Road Secondary,Mixed,null
+Nairobi,County,12,OLM Girls-Shauri Moyo,Girls,null
+Nairobi,County,13,Ruai Boys,Boys,null
+Nairobi,County,14,Ruai Girls,Girls,null
+Nairobi,County,15,Ruthimitu Girls,Girls,null
+Nairobi,County,16,St. Teresa Girls Sec,Girls,null

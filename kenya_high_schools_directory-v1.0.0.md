@@ -24,6 +24,7 @@
     5. County Listings (Bulk) all 47 counties, lightweight rows
     6. County Listings Summary per-county totals + tier breakdown
 
+  Version: v1.0.0
   Last formatted: 2026-06-21
   ===========================================================================
 -->
