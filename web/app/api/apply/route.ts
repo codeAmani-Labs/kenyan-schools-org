@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
+import { env } from '@/lib/env';
 
 export async function POST(request: NextRequest) {
   try {
@@ -26,14 +27,12 @@ export async function POST(request: NextRequest) {
     });
 
     // Send email notification to contributors@codeamanilabs.org (repo primary at codeAmani-Labs org)
-    const RESEND_API_KEY = process.env.RESEND_API_KEY;
-
-    if (RESEND_API_KEY) {
+    if (env.RESEND_API_KEY) {
       try {
         await fetch('https://api.resend.com/emails', {
           method: 'POST',
           headers: {
-            'Authorization': `Bearer ${RESEND_API_KEY}`,
+            'Authorization': `Bearer ${env.RESEND_API_KEY}`,
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({

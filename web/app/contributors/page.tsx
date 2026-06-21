@@ -43,7 +43,7 @@ export default async function ContributorsPage() {
 
       <div className="mx-auto max-w-4xl px-6 pt-12 pb-20">
         <div className="mb-10 text-center">
-          <div className="uppercase text-xs tracking-[3px] text-[#c5a46e] mb-1">COMMUNITY</div>
+          <div className="section-header uppercase text-xs tracking-[3px] text-[#c5a46e] mb-1">COMMUNITY</div>
           <h1 className="text-5xl font-semibold tracking-[-1.5px]">Approved Contributors</h1>
           <p className="mt-3 text-lg text-[#a3a3a3] max-w-xl mx-auto">
             These individuals have been approved to help maintain the Kenyan Schools Directory. 

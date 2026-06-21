@@ -3,15 +3,16 @@ import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 import { env } from './env';
 
 // Cloudflare R2 configuration (S3 compatible) - Hazina secure env loading
-const R2_ACCOUNT_ID = env.CLOUDFLARE_R2_ACCOUNT_ID;
-const R2_ACCESS_KEY_ID = env.CLOUDFLARE_R2_ACCESS_KEY_ID;
-const R2_SECRET_ACCESS_KEY = env.CLOUDFLARE_R2_SECRET_ACCESS_KEY;
+const R2_ACCOUNT_ID = env.CLOUDFLARE_R2_ACCOUNT_ID || env.CLOUDFLARE_ACCOUNT_ID;
+const R2_ACCESS_KEY_ID = env.CLOUDFLARE_R2_ACCESS_KEY_ID || env.CLOUDFLARE_ACCESS_KEY_ID;
+const R2_SECRET_ACCESS_KEY = env.CLOUDFLARE_R2_SECRET_ACCESS_KEY || env.CLOUDFLARE_SECRET_ACCESS_KEY;
 const R2_BUCKET = env.CLOUDFLARE_R2_BUCKET_NAME;
 const R2_PUBLIC_URL = env.CLOUDFLARE_R2_PUBLIC_URL || '';
+const R2_ENDPOINT = env.CLOUDFLARE_S3_API_ENDPOINT || `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`;
 
 export const r2Client = new S3Client({
   region: 'auto',
-  endpoint: `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+  endpoint: R2_ENDPOINT,
   credentials: {
     accessKeyId: R2_ACCESS_KEY_ID,
     secretAccessKey: R2_SECRET_ACCESS_KEY,
@@ -43,7 +44,7 @@ export async function uploadToR2({
   // Construct public URL (if your bucket is public or you have a custom domain)
   const url = R2_PUBLIC_URL
     ? `${R2_PUBLIC_URL.replace(/\/$/, '')}/${key}`
-    : `https://${R2_BUCKET}.${R2_ACCOUNT_ID}.r2.cloudflarestorage.com/${key}`;
+    : `${R2_ENDPOINT.replace(/\/$/, '')}/${R2_BUCKET}/${key}`;
 
   return { key, url };
 }

@@ -1,4 +1,5 @@
 import { School } from './types';
+import { env } from './env';
 
 export function getTierClass(tier: string): string {
   const t = tier.toLowerCase();
@@ -49,7 +50,7 @@ export function makeGitHubIssueUrl(suggestion: {
     `Please review and open a PR against data if approved.`,
   ].filter(Boolean).join('\n');
 
-  const repo = process.env.GITHUB_REPO || 'codeAmani-Labs/kenyan-schools-org'; // Primary in org; copy at codeAmani-Solutions
+  const repo = env.GITHUB_REPO || 'codeAmani-Labs/kenyan-schools-org'; // Primary in org; copy at codeAmani-Solutions
   return `https://github.com/${repo}/issues/new?title=${title}&body=${encodeURIComponent(body)}&labels=school-data`;
 }
 

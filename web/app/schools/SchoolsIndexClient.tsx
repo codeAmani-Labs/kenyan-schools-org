@@ -98,6 +98,9 @@ export default function SchoolsIndexClient() {
   const filteredSchools = useMemo(() => {
     let result = [...allSchools];
 
+    // Hide coverage gap placeholder schools (as requested)
+    result = result.filter((s) => !s.name.includes('[Coverage gap') && s.name !== '[Coverage gap - see note]');
+
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
       result = result.filter(s =>
@@ -173,8 +176,8 @@ export default function SchoolsIndexClient() {
       <div className="mx-auto max-w-7xl px-6 pt-10 pb-16">
         {/* Header (static part moved to server for SEO if needed, but here for completeness) */}
         <div className="mb-8">
-          <div className="uppercase text-xs tracking-[3px] text-[#c5a46e] mb-1">COMPLETE ARCHIVE</div>
-          <h1 className="text-5xl sm:text-6xl font-semibold tracking-[-2.5px] mb-3">
+          <div className="section-label uppercase text-xs tracking-[3px] text-[#c5a46e] mb-1">COMPLETE ARCHIVE</div>
+          <h1 className="hero-title text-5xl sm:text-6xl font-semibold tracking-[-2.5px] mb-3">
             Kenyan Schools Index
           </h1>
           <p className="text-lg text-[#a3a3a3] max-w-3xl">

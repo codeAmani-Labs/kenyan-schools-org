@@ -1,7 +1,19 @@
 # Environment variables & secrets (critical for public GitHub)
+# All real secrets must never be committed
 .env
-.env.*
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+*.env
 !.env.example
+
+# Also ignore any local secret files
+secrets/
+*.pem
+*.key
+id_rsa*
 
 # Logs & local
 *.log
@@ -25,3 +37,4 @@ Thumbs.db
 # Data (large files if needed)
 *.xlsx
 *.csv.bak
+.vercel

@@ -65,9 +65,9 @@ export default function ContributePage() {
 
       <div className="mx-auto max-w-3xl px-6 py-14">
         <div className="mb-10">
-          <div className="uppercase text-xs tracking-[3px] text-[#c5a46e]">CONTRIBUTE TO THE LEGACY</div>
+          <div className="section-header uppercase text-xs tracking-[3px] text-[#c5a46e]">CONTRIBUTE TO THE LEGACY</div>
           <h1 className="text-6xl font-semibold tracking-[-2px] mt-3 leading-none">Add or improve<br />an entry</h1>
-          <p className="mt-4 max-w-md text-xl text-[#a3a3a3]">Every contribution requires a source. This is a public archive. Built and maintained by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru).</p>
+          <p className="mt-4 max-w-md text-xl text-[#c5b9a3]">Every contribution requires a source. This is a public archive. Built and maintained by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru).</p>
           <p className="mt-2 text-sm"><Link href="/apply" className="text-[#c5a46e] underline">Prefer to apply as a tracked contributor with GitHub?</Link></p>
         </div>
 
@@ -144,12 +144,12 @@ export default function ContributePage() {
               {isSubmitting ? 'Saving to Neon...' : 'Submit to the Archive'}
             </button>
 
-            <p className="text-center text-xs text-[#666]">Stored in Neon as pending review.</p>
+            <p className="text-center text-xs text-[#a99c7f]">Stored in Neon as pending review.</p>
           </form>
         ) : (
           <div className="glass-card rounded-3xl p-8 border border-white/10">
             <div className="text-[#c5a46e] font-semibold text-3xl">Contribution recorded.</div>
-            <p className="mt-2 text-[#a3a3a3]">Thank you. It has been saved to the database and awaits review.</p>
+            <p className="mt-2 text-[#c5b9a3]">Thank you. It has been saved to the database and awaits review.</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <button onClick={() => { setSubmitted(null); setSchoolName(''); setProposed(''); setSource(''); setFile(null); }} className="text-sm text-[#c5a46e] underline">Submit another</button>
               <a href="https://github.com/codeAmani-Labs/kenyan-schools-org" target="_blank" className="rounded-full bg-[#c5a46e] text-[#050505] px-5 py-1.5 text-sm font-medium">View on GitHub (primary org)</a>

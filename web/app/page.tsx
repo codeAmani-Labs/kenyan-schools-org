@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { School } from '@/lib/types';
 import schoolsData from '@/data/schools.json';
 import DirectoryExplorer from './components/DirectoryExplorer';
+import ThemeSwitcher from './components/ThemeSwitcher';
+import ThemeHint from './components/ThemeHint';
 import { ArrowRight, MapPin, Award, Users } from 'lucide-react';
 
 // Hybrid data: JSON for directory performance, DB for contributions
@@ -31,7 +33,7 @@ export default function Home() {
               <span className="text-[#050505] font-semibold text-xl tracking-[-1px]">KS</span>
             </div>
             <div>
-              <div className="font-semibold text-xl tracking-[-0.5px]">Kenyan Schools</div>
+              <div className="font-semibold text-xl tracking-[-0.5px] elegant-title">Kenyan Schools</div>
               <div className="text-[9px] text-[#c5a46e] -mt-1 font-mono tracking-[1px]">by CodeAmani Labs</div>
             </div>
           </Link>
@@ -44,6 +46,8 @@ export default function Home() {
             <Link href="/apply" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">Apply</Link>
             <Link href="/about" className="px-4 py-2 rounded-full hover:bg-white/5 transition-colors hidden md:block">About</Link>
             
+            <ThemeSwitcher />
+
             <Link 
               href="/apply" 
               className="ml-2 inline-flex items-center gap-2 rounded-full bg-[#c5a46e] px-5 py-2 text-sm font-medium text-[#050505] hover:bg-[#d4b48c] active:bg-[#b38b4f] transition-all"
@@ -54,19 +58,30 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* Floating theme switcher (always available) */}
+      <ThemeSwitcher floating />
+
+      {/* Per-page theme hint */}
+      <div className="absolute top-20 right-6 hidden lg:block z-40">
+        <ThemeHint 
+          suggestedTheme="obsidian-gold" 
+          description="Premium dark experience" 
+        />
+      </div>
+
       {/* Premium Hero with Liquid Glass */}
-      <div className="relative border-b border-white/10 pt-16 pb-20">
+      <div className="relative border-b border-white/10 pt-16 pb-20 gold-hero">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full glass px-4 py-1 text-xs tracking-[1.5px] mb-6 text-[#c5a46e]">
             A NATIONAL LEGACY • Citable • Community Curated
           </div>
 
-          <h1 className="text-[72px] sm:text-[88px] leading-[0.92] font-semibold tracking-[-4.8px] mb-6">
+          <h1 className="hero-title text-[72px] sm:text-[88px] leading-[0.92] font-semibold tracking-[-4.8px] mb-6">
             Every Kenyan<br />school.<br />
             <span className="text-[#c5a46e]">Authoritative.</span>
           </h1>
           
-          <p className="max-w-xl mx-auto text-2xl text-[#a3a3a3] tracking-tight">
+          <p className="max-w-xl mx-auto text-2xl text-[#c5b9a3] tracking-tight">
             The definitive, living directory of Kenya’s secondary schools — 
             with sources, history, and community contributions.
           </p>
@@ -88,7 +103,7 @@ export default function Home() {
           </div>
 
           {/* Trust bar */}
-          <div className="mt-12 flex justify-center gap-x-10 gap-y-2 text-sm text-[#a3a3a3]">
+          <div className="mt-12 flex justify-center gap-x-10 gap-y-2 text-sm text-[#c5b9a3]">
             <div><span className="text-[#f5f5f5] font-semibold">{schools.length.toLocaleString()}</span> schools</div>
             <div><span className="text-[#f5f5f5] font-semibold">{counties}</span> counties</div>
             <div><span className="text-[#f5f5f5] font-semibold">{national}</span> national</div>
@@ -109,7 +124,7 @@ export default function Home() {
             >
               <div className="font-mono text-6xl font-semibold tracking-[-2.5px] text-[#c5a46e] mb-1">{stat.number}</div>
               <div className="font-medium text-lg tracking-tight">{stat.label}</div>
-              <div className="text-xs text-[#a3a3a3] mt-0.5">{stat.sub}</div>
+              <div className="text-xs text-[#c5b9a3] mt-0.5">{stat.sub}</div>
             </motion.div>
           ))}
         </div>
@@ -119,8 +134,8 @@ export default function Home() {
       <div id="explore" className="mx-auto max-w-7xl px-6 pb-20">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 gap-y-2">
           <div>
-            <div className="uppercase text-xs tracking-[3px] text-[#c5a46e] font-medium mb-1">THE ARCHIVE</div>
-            <h2 className="text-5xl font-semibold tracking-[-1.5px]">School Directory</h2>
+            <div className="section-label uppercase text-xs tracking-[3px] text-[#c5a46e] font-medium mb-1">THE ARCHIVE</div>
+            <h2 className="hero-title text-5xl font-semibold tracking-[-1.5px]">School Directory</h2>
             <p className="text-xs text-[#666] mt-1">by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru)</p>
           </div>
           <Link href="/directory" className="inline-flex items-center gap-1 text-[#c5a46e] text-sm group">
@@ -137,7 +152,7 @@ export default function Home() {
       {/* Philosophy - Premium Glass Strip */}
       <div className="border-y border-white/10 bg-[#0a0a0a] py-16">
         <div className="mx-auto max-w-4xl px-6 text-center">
-          <div className="text-[#c5a46e] text-xs tracking-[3px] mb-3">OUR STANDARD</div>
+          <div className="section-label text-[#c5a46e] text-xs tracking-[3px] mb-3">OUR STANDARD</div>
           <p className="text-3xl leading-tight tracking-tight">
             Like a national archive. Every entry must be traceable to a source.<br /> 
             Anyone can contribute. Everything is transparent.<br />

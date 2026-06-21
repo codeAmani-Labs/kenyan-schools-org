@@ -26,7 +26,7 @@ export default function ApplyPage() {
       <div className="mx-auto max-w-2xl px-6 pt-12 pb-20">
         <div className="mb-8">
           <div className="uppercase text-xs tracking-[3px] text-[#c5a46e] mb-1">JOIN THE TEAM</div>
-          <h1 className="text-5xl font-semibold tracking-[-2px]">Apply to Become a Contributor</h1>
+          <h1 className="hero-title text-5xl font-semibold tracking-[-2px]">Apply to Become a Contributor</h1>
           <p className="mt-3 text-lg text-[#a3a3a3]">
             Help build and maintain the most reliable public directory of Kenyan schools. 
             All applications are reviewed by the CodeAmani Labs team.

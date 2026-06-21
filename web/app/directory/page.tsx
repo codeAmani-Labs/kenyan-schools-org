@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { School } from '@/lib/types';
 import schoolsData from '@/data/schools.json';
 import DirectoryExplorer from '../components/DirectoryExplorer';
+import ThemeSwitcher from '../components/ThemeSwitcher';
+import ThemeHint from '../components/ThemeHint';
 
 // Static data for directory view (excellent UX + build without DB)
 // All mutations go through /api/suggest → Neon
@@ -29,9 +31,17 @@ export default function DirectoryPage() {
           <div className="text-[#666]">/</div>
           <Link href="/apply" className="text-[#c5a46e] hover:underline">Apply</Link>
           <div className="text-[#666]">/</div>
+          <Link href="/contribute" className="text-[#c5a46e] hover:underline">Contribute</Link>
+          <div className="text-[#666]">/</div>
           <div className="text-[#c5a46e]">Full Directory</div>
+          <div className="ml-auto"><ThemeSwitcher /></div>
         </div>
       </nav>
+
+      <ThemeSwitcher floating />
+      <div className="hidden lg:block fixed top-20 right-6 z-40">
+        <ThemeHint suggestedTheme="cream" description="Best for reference browsing" />
+      </div>
 
       <div className="mx-auto max-w-7xl px-6 pt-12 pb-4">
         <div className="mb-7">

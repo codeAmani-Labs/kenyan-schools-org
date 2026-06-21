@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import ThemeSwitcher from '../components/ThemeSwitcher';
+import ThemeHint from '../components/ThemeHint';
 
 export const metadata = {
   title: 'Citations & Sources | Kenyan Schools Directory',
@@ -21,23 +23,23 @@ export default function CitationsPage() {
       <div className="mx-auto max-w-3xl px-6 py-10">
         <Link href="/" className="text-sm text-[#c5a46e]">← Back home</Link>
         
-        <h1 className="mt-6 text-5xl font-semibold tracking-tighter">Citations &amp; Sources</h1>
+        <h1 className="hero-title mt-6 text-5xl font-semibold tracking-tighter">Citations &amp; Sources</h1>
         <p className="mt-2 text-lg text-[#a3a3a3]">The foundation of trust. Every addition requires a verifiable reference.</p>
 
-        <div className="mt-8 border rounded-2xl overflow-hidden bg-white">
-          <table className="w-full text-sm">
+        <div className="mt-8 border rounded-2xl overflow-hidden glass-card">
+          <table className="w-full text-sm data-table">
             <thead>
-              <tr className="border-b bg-slate-50">
+              <tr>
                 <th className="text-left py-3 px-5 w-14">ID</th>
                 <th className="text-left py-3 px-5">Source</th>
               </tr>
             </thead>
             <tbody>
               {baseCitations.map(c => (
-                <tr key={c.id} className="border-b last:border-none hover:bg-emerald-50/30">
-                  <td className="font-mono px-5 py-3 text-emerald-700 align-top">{c.id}</td>
+                <tr key={c.id} className="border-b border-white/10 last:border-none hover:bg-white/5">
+                  <td className="font-mono px-5 py-3 text-[#c5a46e] align-top">{c.id}</td>
                   <td className="px-5 py-3">
-                    {c.url ? <a href={c.url} target="_blank" className="hover:underline text-[var(--green-800)]">{c.source}</a> : c.source}
+                    {c.url ? <a href={c.url} target="_blank" className="hover:underline text-[#e8dcc0]">{c.source}</a> : c.source}
                   </td>
                 </tr>
               ))}
@@ -52,6 +54,11 @@ export default function CitationsPage() {
         <div className="mt-10 text-xs bg-white p-6 border rounded-2xl">
           When you suggest an edit, always include a source. We follow the rule: <em>no source, no change</em>. This keeps the resource trustworthy for students, parents, researchers and journalists.
         </div>
+      </div>
+
+      <ThemeSwitcher floating />
+      <div className="hidden lg:block fixed top-20 right-6 z-40">
+        <ThemeHint suggestedTheme="cream" description="Perfect for citation reading" />
       </div>
     </div>
   );

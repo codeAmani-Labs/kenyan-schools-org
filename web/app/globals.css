@@ -21,22 +21,239 @@
   --gold-600: #9a7440;
   --gold-700: #7a5a32;
 
-  /* Supporting authoritative colors */
-  --ink: #f5f5f5;
-  --ink-muted: #a3a3a3;
-  --ink-subtle: #6b6b6b;
+  /* Supporting authoritative colors - improved contrast for dark glass */
+  --ink: #f8f4eb;
+  --ink-muted: #c5b9a3;
+  --ink-subtle: #a99c7f;  /* warmer + higher contrast for labels on dark glass */
 
   /* Glass surfaces */
-  --glass: rgba(255, 255, 255, 0.06);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-strong: rgba(255, 255, 255, 0.12);
+  --glass: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-strong: rgba(255, 255, 255, 0.14);
+
+/* ============================================
+   MULTIPLE DYNAMIC THEMES (user selectable)
+   Apply via <html data-theme="name"> 
+============================================ */
+
+/* 1. Obsidian Gold (current premium dark) */
+[data-theme="obsidian-gold"],
+:root {
+  --bg: #050505;
+  --fg: #f8f4eb;
+  --muted: #c5b9a3;
+  --subtle: #a99c7f;
+  --accent: #c5a46e;
+  --glass: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --card-bg: rgba(255, 255, 255, 0.07);
 }
 
-/* Premium Dark Base */
+/* 2. Cream Document (inspired by style demo PDF - light & readable) */
+[data-theme="cream"] {
+  --bg: #f8f4eb;
+  --fg: #2c2721;
+  --muted: #5c5346;
+  --subtle: #766b5c;
+  --accent: #9a7440;
+  --glass: rgba(44, 39, 33, 0.06);
+  --glass-border: rgba(44, 39, 33, 0.15);
+  --card-bg: #f1e9d9;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+/* 3. Midnight Sapphire (cool dark variant) */
+[data-theme="sapphire"] {
+  --bg: #0a0f1e;
+  --fg: #e8f0ff;
+  --muted: #a8c0e8;
+  --subtle: #6b8ac2;
+  --accent: #7aa8ff;
+  --glass: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(120, 160, 255, 0.18);
+  --card-bg: rgba(255, 255, 255, 0.04);
+}
+
+/* 4. Savanna Earth (warm Kenya-inspired) */
+[data-theme="savanna"] {
+  --bg: #1a140f;
+  --fg: #f4e9d8;
+  --muted: #d4b68a;
+  --subtle: #b38d5e;
+  --accent: #d4a017;
+  --glass: rgba(244, 233, 216, 0.07);
+  --glass-border: rgba(212, 160, 23, 0.2);
+  --card-bg: rgba(244, 233, 216, 0.05);
+}
+
+/* 5. Pure Obsidian (minimal, high contrast dark) */
+[data-theme="obsidian"] {
+  --bg: #000000;
+  --fg: #f0f0f0;
+  --muted: #b0b0b0;
+  --subtle: #888888;
+  --accent: #e0e0e0;
+  --glass: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --card-bg: rgba(255, 255, 255, 0.03);
+}
+
+/* 6. Dawn Light (soft, clean light mode) */
+[data-theme="dawn"] {
+  --bg: #f9f7f2;
+  --fg: #2f2a24;
+  --muted: #6a6258;
+  --subtle: #8a8175;
+  --accent: #8c6642;
+  --glass: rgba(0, 0, 0, 0.03);
+  --glass-border: rgba(0, 0, 0, 0.12);
+  --card-bg: #f1ede3;
+}
+
+/* 7. Forest Teal (Kenya nature-inspired) */
+[data-theme="forest"] {
+  --bg: #0f1a17;
+  --fg: #e8f0ed;
+  --muted: #9ebdb3;
+  --subtle: #6b8f82;
+  --accent: #5aa38a;
+  --glass: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(90, 163, 138, 0.2);
+  --card-bg: rgba(255, 255, 255, 0.04);
+}
+
+/* 8. Amethyst (rich purple premium) */
+[data-theme="amethyst"] {
+  --bg: #120c1a;
+  --fg: #f2e9ff;
+  --muted: #c5a8e0;
+  --subtle: #9a7db8;
+  --accent: #b38be8;
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-border: rgba(179, 139, 232, 0.22);
+  --card-bg: rgba(255, 255, 255, 0.045);
+}
+
+  /* Elegant serif from Obsidian Gold style guide */
+  --font-serif: var(--font-playfair);
+
+  /* Base theme vars (Obsidian Gold default) */
+  --bg: #050505;
+  --fg: #f8f4eb;
+  --muted: #c5b9a3;
+  --subtle: #a99c7f;
+  --accent: #c5a46e;
+  --glass: rgba(255, 255, 255, 0.07);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --card-bg: rgba(255, 255, 255, 0.07);
+}
+
+/* Premium Base - respects dynamic themes */
 body {
   font-family: var(--font-geist-sans);
-  background: var(--obsidian-950);
-  color: var(--ink);
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* Update glass components to use theme vars */
+.glass,
+.glass-card,
+.glass-strong,
+.glass-nav {
+  background: var(--glass);
+  border-color: var(--glass-border);
+}
+
+.glass-card {
+  background: var(--card-bg, var(--glass));
+}
+
+/* Make main containers theme-aware */
+.min-h-screen {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* ============================================
+   ADDITIONAL ADAPTATIONS: Badges, Tables, Forms, etc.
+============================================ */
+
+/* Badges - fully theme aware */
+.badge {
+  border-color: var(--glass-border);
+  font-weight: 500;
+}
+
+.badge-national {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+.badge-extra {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--muted);
+}
+
+.badge-county {
+  background: color-mix(in srgb, var(--fg) 8%, transparent);
+  color: var(--subtle);
+}
+
+.badge-sne {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  color: var(--accent);
+}
+
+/* Gender */
+.badge-boys { background: color-mix(in srgb, #3b82f6 14%, transparent); color: #bae0fd; }
+.badge-girls { background: color-mix(in srgb, #ec4899 14%, transparent); color: #f8c1dc; }
+.badge-mixed { background: color-mix(in srgb, #10b981 14%, transparent); color: #8de9c4; }
+
+/* Tables */
+table, .data-table {
+  border-color: var(--glass-border);
+}
+
+.data-table th {
+  background: color-mix(in srgb, var(--accent) 10%, var(--card-bg));
+  color: var(--accent);
+  border-bottom-color: var(--glass-border);
+}
+
+.data-table td {
+  border-bottom-color: var(--glass-border);
+  color: var(--fg);
+}
+
+.data-table tr:hover td {
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
+}
+
+/* Form controls */
+input, textarea, select {
+  background-color: color-mix(in srgb, var(--bg) 75%, var(--card-bg));
+  border-color: var(--glass-border);
+  color: var(--fg);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--subtle);
+}
+
+/* Buttons */
+.glass button, .glass-card button {
+  transition: all 0.1s ease;
+}
+
+/* Accents and links */
+.text-\[\#c5a46e\], .text-\[\#c5b9a3\] {
+  color: var(--accent) !important;
+}
+
+a.text-\[\#c5a46e\] {
+  color: var(--accent) !important;
 }
 
 @theme inline {
@@ -89,6 +306,121 @@ body {
 h1, h2, h3 {
   font-feature-settings: "tnum", "ss01";
   letter-spacing: -0.02em;
+}
+
+/* Italicize major site Titles / Headers for elegant premium feel */
+h1, 
+h2.page-title, 
+.school-name,
+.hero-title {
+  font-style: italic;
+}
+
+/* Section labels (CORE INFORMATION etc.) also get subtle italic for luxury */
+.section-label {
+  font-style: italic;
+}
+
+/* === Obsidian Gold Style Guide Enhancements === */
+/* Elegant cover-style titles (serif italic gold like PDF cover) */
+.elegant-title,
+h1.hero-title,
+h1.school-name {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #c5a46e;
+}
+
+/* Section headers with thin gold underline (inspired by PDF content pages) */
+.section-header {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.35rem;
+}
+.section-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 1px;
+  background: linear-gradient(to right, #c5a46e, transparent);
+}
+
+/* Premium info / metadata card (like cover page framed box) */
+.info-card {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid #c5a46e;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+.info-card .label {
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #c5a46e;
+  font-weight: 500;
+}
+.info-card .value {
+  font-size: 0.875rem;
+  color: #e8dcc0;
+  margin-top: 1px;
+}
+
+/* Elegant callout boxes (left gold bar + cream tint on dark) */
+.callout {
+  border-left: 4px solid #c5a46e;
+  background: rgba(197, 164, 110, 0.06);
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  color: #e8dcc0;
+}
+
+/* Obsidian Gold cover-inspired hero background (concentric subtle rings) */
+.gold-hero {
+  background: 
+    radial-gradient(circle at 50% 40%, rgba(197,164,110,0.08) 0%, transparent 55%),
+    radial-gradient(circle at 50% 45%, rgba(197,164,110,0.04) 0%, transparent 70%),
+    #050505;
+  position: relative;
+}
+.gold-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    repeating-radial-gradient(
+      circle at 50% 42%,
+      transparent 0,
+      transparent 22%,
+      rgba(197,164,110,0.035) 23%,
+      rgba(197,164,110,0.035) 24%
+    );
+  pointer-events: none;
+}
+
+/* Process / step cards (like PDF numbered steps) */
+.step-card {
+  border: 1px solid #c5a46e;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.03);
+  padding: 0.75rem 1rem;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+.step-card.active,
+.step-card.completed {
+  background: #c5a46e;
+  color: #050505;
+  border-color: #c5a46e;
+}
+.step-card .step-label {
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 
 /* text-gold removed for Tailwind compatibility - use direct colors */
@@ -166,11 +498,14 @@ h1, h2, h3 {
 }
 
 .detail-label {
-  @apply text-sm font-medium tracking-widest uppercase text-[var(--ink-subtle)] pt-0.5;
+  @apply text-sm font-medium tracking-[1.5px] uppercase pt-0.5;
+  color: #d4c8a8; /* warm muted gold for high visibility on dark glass cards */
+  letter-spacing: 0.04em;
 }
 
 .detail-value {
   @apply md:col-span-3 text-[15px] leading-relaxed;
+  color: var(--ink);
 }
 
 /* Elegant Modal - Liquid Glass */
@@ -244,22 +579,18 @@ h1, h2, h3 {
   @apply bg-[var(--green-800)] text-white border-[var(--green-800)];
 }
 
-.detail-row {
-  @apply grid grid-cols-1 md:grid-cols-4 gap-x-4 py-3 border-b border-slate-100 last:border-0;
-}
-.detail-label {
-  @apply text-sm font-medium text-slate-600;
-}
-.detail-value {
-  @apply md:col-span-3 text-[15px] text-slate-900;
-}
+/* (cleaned duplicate light-theme rules that were harming dark mode contrast) */
 
-/* Nice table for directory fallback */
+/* Nice table for directory fallback (dark) */
 .data-table th {
-  @apply text-left font-medium text-slate-600 py-3 px-4 border-b bg-slate-50;
+  @apply text-left font-medium py-3 px-4 border-b;
+  color: #d4c8a8;
+  border-color: var(--glass-border);
+  background: rgba(255,255,255,0.03);
 }
 .data-table td {
   @apply py-3 px-4 border-b text-sm;
+  border-color: var(--glass-border);
 }
 
 .modal {
@@ -272,5 +603,6 @@ h1, h2, h3 {
 
 /* Citations */
 .cite {
-  @apply text-[10px] font-mono px-1 py-px rounded bg-slate-100 text-slate-600 align-super cursor-pointer;
+  @apply text-[10px] font-mono px-1 py-px rounded bg-white/10 align-super cursor-pointer;
+  color: #c5a46e;
 }

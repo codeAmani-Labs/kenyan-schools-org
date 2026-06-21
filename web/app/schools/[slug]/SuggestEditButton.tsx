@@ -162,7 +162,7 @@ export default function SuggestEditButton({ school }: Props) {
                     <button type="button" onClick={resetAndClose} className="flex-1 rounded-2xl border border-white/20 py-3" disabled={isSubmitting}>Cancel</button>
                   </div>
 
-                  <p className="text-center text-[10px] text-[#666] pt-2">
+                  <p className="text-center text-[10px] text-[#a99c7f] pt-2">
                     Saved to database as <span className="text-[#c5a46e]">pending</span>. Will be reviewed.
                   </p>
                 </form>
@@ -171,7 +171,7 @@ export default function SuggestEditButton({ school }: Props) {
               <div className="p-8 text-center">
                 <div className="text-[#c5a46e] text-4xl mb-2">✓</div>
                 <div className="text-2xl font-semibold tracking-tight">Thank you</div>
-                <p className="mt-2 text-sm text-[#a3a3a3]">Your contribution and any attached evidence have been recorded in the database.</p>
+                <p className="mt-2 text-sm text-[#c5b9a3]">Your contribution and any attached evidence have been recorded in the database.</p>
                 <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
                   <button onClick={resetAndClose} className="rounded-full border border-white/20 px-7 py-2 text-sm">Close</button>
                   <a href="https://github.com/codeAmani-Labs/kenyan-schools-org" target="_blank" className="rounded-full bg-[#c5a46e] text-[#050505] px-7 py-2 text-sm font-medium">View on GitHub (primary org)</a>

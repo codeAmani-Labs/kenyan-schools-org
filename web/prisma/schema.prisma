@@ -1,5 +1,8 @@
 // This is your Prisma schema for KenyanSchools.org
 // Using Neon Postgres (serverless-friendly)
+// DB created via Neon MCP: rapid-credit-26396353 (kenyan-schools-org project)
+// Tables include: School, Suggestion, ContributorApplication (for tracking users/contributors via /apply)
+// See .env.example and web/DEPLOY.md for connection.
 
 generator client {
   provider = "prisma-client-js"

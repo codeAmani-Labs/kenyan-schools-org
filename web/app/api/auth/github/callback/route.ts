@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { env } from '@/lib/env';
 
-const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID || 'YOUR_GITHUB_CLIENT_ID';
-const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET || 'YOUR_GITHUB_CLIENT_SECRET';
+const GITHUB_CLIENT_ID = env.GITHUB_CLIENT_ID || 'YOUR_GITHUB_CLIENT_ID';
+const GITHUB_CLIENT_SECRET = env.GITHUB_CLIENT_SECRET || 'YOUR_GITHUB_CLIENT_SECRET';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);

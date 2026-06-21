@@ -63,8 +63,8 @@ export default async function SchoolPage({ params }: PageProps) {
         <div className="mx-auto max-w-5xl px-6 h-14 flex items-center justify-between text-sm">
           <div className="flex items-center gap-4">
             <Link href="/" className="font-medium tracking-tight flex items-center gap-2">Kenyan Schools <span className="text-xs text-[#c5a46e]">by CodeAmani Labs</span></Link>
-            <Link href="/directory" className="text-[#a3a3a3] hover:text-white">Directory</Link>
-            <Link href="/contributors" className="text-[#a3a3a3] hover:text-white">Contributors</Link>
+            <Link href="/directory" className="text-[#c5b9a3] hover:text-white">Directory</Link>
+            <Link href="/contributors" className="text-[#c5b9a3] hover:text-white">Contributors</Link>
           </div>
           <div className="flex items-center gap-3">
             <a href="#suggest" className="text-[#c5a46e] hover:text-white text-sm">Suggest edit</a>
@@ -77,18 +77,18 @@ export default async function SchoolPage({ params }: PageProps) {
       <div className="mx-auto max-w-5xl px-6 pt-12 pb-24">
         {/* Header */}
         <div>
-          <div className="flex items-center gap-3 text-xs tracking-widest text-[#a3a3a3] mb-3">
+          <div className="flex items-center gap-3 text-xs tracking-widest text-[#c5b9a3] mb-3">
             <span className="font-mono bg-white/10 px-2 py-0.5 rounded text-[#c5a46e]">{school.indexNo}</span>
             <span>{school.county.toUpperCase()} COUNTY</span> 
             {school.rank && <span>— RANK #{school.rank}</span>}
           </div>
           
-          <h1 className="text-6xl sm:text-[68px] font-semibold tracking-[-3.6px] leading-none mb-2">{school.name}</h1>
+          <h1 className="school-name text-6xl sm:text-[68px] font-semibold tracking-[-3.6px] leading-none mb-2">{school.name}</h1>
           
           <div className="flex gap-2 mt-5">
             <span className={`badge text-sm py-1 px-4 ${tierBadge}`}>{formatTier(school.tier)}</span>
             {school.gender && <span className={`badge text-sm py-1 px-4 ${genderBadge}`}>{school.gender}</span>}
-            {school.cluster && <span className="badge text-sm py-1 px-4 border-white/10 text-[#a3a3a3]">{school.cluster}</span>}
+            {school.cluster && <span className="badge text-sm py-1 px-4 border-white/10 text-[#c5b9a3]">{school.cluster}</span>}
           </div>
         </div>
 
@@ -97,8 +97,8 @@ export default async function SchoolPage({ params }: PageProps) {
           <div className="md:col-span-7 space-y-12">
             {/* Core */}
             <section>
-              <div className="uppercase text-xs tracking-[2px] text-[#c5a46e] mb-4">CORE INFORMATION</div>
-              <div className="glass-card rounded-3xl divide-y divide-white/10 border border-white/10">
+              <div className="section-header section-label uppercase text-xs tracking-[2px] text-[#c5a46e] mb-1">CORE INFORMATION</div>
+              <div className="glass-card rounded-3xl divide-y divide-white/10 border border-white/10 mt-3">
                 {[
                   ["County", school.county],
                   ["Tier", `${formatTier(school.tier)}${school.cluster ? ` (${school.cluster})` : ''}`],
@@ -116,18 +116,18 @@ export default async function SchoolPage({ params }: PageProps) {
 
             {/* Contact */}
             <section>
-              <div className="uppercase text-xs tracking-[2px] text-[#c5a46e] mb-4">CONTACT &amp; DIGITAL</div>
+              <div className="section-header section-label uppercase text-xs tracking-[2px] text-[#c5a46e] mb-1">CONTACT &amp; DIGITAL</div>
               <div className="glass-card rounded-3xl p-7 space-y-3 text-sm">
                 {school.website && <div>Website: <a href={`https://${school.website}`} target="_blank" className="text-[#c5a46e] hover:underline">{school.website}</a></div>}
                 {school.phone && <div>Phone: {school.phone}</div>}
                 {school.email && <div>Email: {school.email}</div>}
-                {(!school.website && !school.phone && !school.email) && <div className="text-[#a3a3a3]">No contact information yet. Help us add it.</div>}
+                {(!school.website && !school.phone && !school.email) && <div className="text-[#c5b9a3]">No contact information yet. Help us add it.</div>}
               </div>
             </section>
 
             {/* Notes */}
             <section>
-              <div className="uppercase text-xs tracking-[2px] text-[#c5a46e] mb-4">IDENTITY &amp; NOTES</div>
+              <div className="section-header section-label uppercase text-xs tracking-[2px] text-[#c5a46e] mb-1">IDENTITY &amp; NOTES</div>
               <div className="glass-card rounded-3xl p-7">
                 <div className="mb-5">
                   <span className="uppercase text-xs tracking-widest text-[#666]">Sports Nicknames</span>
@@ -156,10 +156,10 @@ export default async function SchoolPage({ params }: PageProps) {
 
           {/* Sidebar */}
           <div className="md:col-span-5 space-y-5">
-            <div className="glass-card rounded-3xl p-7">
+            <div className="info-card">
               <div className="uppercase tracking-[1.5px] text-xs text-[#c5a46e]">CODEAMANI LABS INDEX</div>
               <div className="font-mono text-2xl mt-1 text-[#c5a46e]">{school.indexNo}</div>
-              <div className="text-[10px] text-[#666] mt-0.5">Unique internal identifier (distinguishes duplicate names)</div>
+              <div className="text-[10px] text-[#a99c7f] mt-0.5">Unique internal identifier (distinguishes duplicate names)</div>
               <div className="uppercase tracking-[1.5px] text-xs text-[#c5a46e] mt-4">LOCATION</div>
               {school.lat && school.lng ? (
                 <>
@@ -167,7 +167,7 @@ export default async function SchoolPage({ params }: PageProps) {
                   <a href={`https://maps.google.com/?q=${school.lat},${school.lng}`} target="_blank" className="text-[#c5a46e] text-xs inline-block mt-1">Open in Maps →</a>
                 </>
               ) : (
-                <div className="text-sm text-[#a3a3a3] mt-2">No GPS recorded yet. Contribute accurate coordinates.</div>
+                <div className="text-sm text-[#c5b9a3] mt-2">No GPS recorded yet. Contribute accurate coordinates.</div>
               )}
             </div>
 

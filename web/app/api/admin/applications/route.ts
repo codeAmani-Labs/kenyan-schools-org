@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import prisma from '@/lib/db';
+import { env } from '@/lib/env';
 
-const ADMIN_SECRET = process.env.ADMIN_SECRET || 'dev-secret';
-const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const ADMIN_SECRET = env.ADMIN_SECRET || 'dev-secret';
+const RESEND_API_KEY = env.RESEND_API_KEY;
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);

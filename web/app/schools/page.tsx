@@ -1,6 +1,8 @@
 import React, { Suspense } from 'react';
 import Link from 'next/link';
 import SchoolsIndexClient from './SchoolsIndexClient';
+import ThemeSwitcher from '../components/ThemeSwitcher';
+import ThemeHint from '../components/ThemeHint';
 
 export const metadata = {
   title: 'Complete Index of All Kenyan Schools | CodeAmani Labs',
@@ -26,6 +28,8 @@ export default function SchoolsIndexPage() {
             <Link href="/apply" className="hover:text-[#c5a46e]">Apply</Link>
             <Link href="/contribute" className="hover:text-[#c5a46e]">Contribute</Link>
             <Link href="/about" className="hover:text-[#c5a46e]">About</Link>
+            <ThemeSwitcher />
+            <ThemeSwitcher floating />
             <a 
               href="https://github.com/codeAmani-Labs/kenyan-schools-org" 
               target="_blank" 
@@ -37,6 +41,10 @@ export default function SchoolsIndexPage() {
           </div>
         </div>
       </nav>
+
+      <div className="hidden lg:block fixed top-20 right-6 z-40">
+        <ThemeHint suggestedTheme="cream" description="Great for long lists & browsing" />
+      </div>
 
       <Suspense fallback={
         <div className="mx-auto max-w-7xl px-6 pt-10 pb-16">

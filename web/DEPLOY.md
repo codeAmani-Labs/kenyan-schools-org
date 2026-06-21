@@ -43,16 +43,35 @@ For even stronger security (Hazina production pattern), you can later:
 
 ## 2. Set up Neon
 
-1. Create a project at neon.tech
-2. Create a database (default is fine)
-3. Copy the connection string (with `?sslmode=require`)
+The Neon database was created via MCP/Neon tools:
+
+- Project: rapid-credit-26396353 ("kenyan-schools-org")
+- Used for tracking schools data + contributors (ContributorApplication table)
+- Run `npx prisma db push` (or migrate) after setting DATABASE_URL
+
+1. Use Neon console or the MCP `create_project` / CLI equivalent if recreating.
+2. Copy the pooled connection string (with `?channel_binding=require&sslmode=require`)
+3. Set DATABASE_URL in .env.local (and Vercel env vars)
+4. `npx prisma generate && npx prisma db push` (from web/)
 
 ## 3. Set up Cloudflare R2
 
-1. Dashboard → R2 Object Storage → Create bucket (e.g. `kenyan-schools-evidence`)
-2. Make it public or set up a custom domain / R2.dev URL
-3. Create an API token (R2 tokens) with read/write
-4. Get Account ID from R2 overview
+Used Cloudflare CLI (wrangler) with provided API token:
+
+npx wrangler r2 bucket create kenyan-schools-evidence
+
+(After: $env:CLOUDFLARE_API_TOKEN=... ; $env:CLOUDFLARE_ACCOUNT_ID=... )
+
+1. Or Dashboard → R2 Object Storage → Create bucket (e.g. `kenyan-schools-evidence`)
+2. Make it public or set up a custom domain / R2.dev URL (for direct PUBLIC_URL access; otherwise use presigned URLs)
+3. Create an R2 API token (with Object Read & Write) to get Access Key ID and Secret Access Key
+4. Get Account ID from R2 overview or wrangler whoami
+5. Set the following in .env / Vercel:
+   - CLOUDFLARE_R2_ACCOUNT_ID
+   - CLOUDFLARE_R2_ACCESS_KEY_ID
+   - CLOUDFLARE_R2_SECRET_ACCESS_KEY
+   - CLOUDFLARE_R2_BUCKET_NAME=kenyan-schools-evidence
+   - CLOUDFLARE_R2_PUBLIC_URL (optional)
 
 ## 4. Initial data load
 

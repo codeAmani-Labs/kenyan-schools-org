@@ -22,6 +22,9 @@ export default function DirectoryExplorer({ schools, compact = false }: Props) {
   const filtered = useMemo(() => {
     let result = filterSchools(schools, query, selectedCounties, selectedTiers, selectedGenders);
 
+    // Hide coverage gap placeholder schools (from the data seeds)
+    result = result.filter((s) => !s.name.includes('[Coverage gap') && s.name !== '[Coverage gap - see note]');
+
     // Sorting
     result = [...result].sort((a, b) => {
       if (sort === 'name') return a.name.localeCompare(b.name);
@@ -182,23 +185,23 @@ export default function DirectoryExplorer({ schools, compact = false }: Props) {
               >
                 <div className="card-inner glass-card p-6 h-full rounded-3xl border border-white/10 group-hover:border-[#c5a46e]/40">
                   <div className="flex justify-between items-start gap-4">
-                    <div className="font-semibold text-[17px] leading-tight tracking-[-0.3px] group-hover:text-[#c5a46e] transition-colors">
+                    <div className="font-semibold text-[17px] leading-tight tracking-[-0.3px] group-hover:text-[var(--accent)] transition-colors">
                       {school.name}
                     </div>
-                    <div className="font-mono text-xs text-[#c5a46e] pt-1 whitespace-nowrap flex-shrink-0">{school.indexNo}</div>
+                    <div className="font-mono text-xs text-[var(--accent)] pt-1 whitespace-nowrap flex-shrink-0">{school.indexNo}</div>
                   </div>
 
                   <div className="flex gap-2 flex-wrap mt-4">
                     <span className={`badge ${getTierClass(school.tier)}`}>{formatTier(school.tier)}</span>
                     {school.gender && <span className={`badge ${getGenderClass(school.gender)}`}>{school.gender}</span>}
-                    <span className="badge text-[#666] border-white/10">{school.county}</span>
+                    <span className="badge border-white/10" style={{ color: 'var(--subtle)' }}>{school.county}</span>
                   </div>
 
-                  <div className="mt-5 text-sm text-[#a3a3a3] line-clamp-2 min-h-[44px]">
+                  <div className="mt-5 text-sm line-clamp-2 min-h-[44px]" style={{ color: 'var(--muted)' }}>
                     {school.notes || "Community-verified. Add history, sports nicknames, or GPS coordinates."}
                   </div>
 
-                  <div className="text-[#c5a46e] text-xs mt-6 font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+                  <div className="text-[var(--accent)] text-xs mt-6 font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
                     VIEW PROFILE <span className="text-lg leading-none">→</span>
                   </div>
                 </div>
