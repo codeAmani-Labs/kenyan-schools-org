@@ -22,7 +22,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kenyanschool.org'),
+  metadataBase: new URL('https://kenyanschools.org'),
   title: {
     default: "Kenyan Schools Directory | All 47 Counties | CodeAmani Labs",
     template: "%s | Kenyan Schools - CodeAmani Labs",
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
     description: "Authoritative directory of Kenyan secondary schools across 47 counties. Reliable public data resource.",
   },
   alternates: {
-    canonical: "https://kenyanschool.org",
+    canonical: "https://kenyanschools.org",
     types: {
-      "application/xml": "https://kenyanschool.org/sitemap.xml",
+      "application/xml": "https://kenyanschools.org/sitemap.xml",
     },
   },
   robots: {

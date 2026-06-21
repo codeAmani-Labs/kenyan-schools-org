@@ -60,7 +60,7 @@ export const env = {
   EDIT_ZONE_DNS_API_TOKEN: optional(process.env.EDIT_ZONE_DNS_API_TOKEN),
 
   // Site
-  NEXT_PUBLIC_SITE_URL: optional(process.env.NEXT_PUBLIC_SITE_URL, 'https://kenyanschool.org'),
+  NEXT_PUBLIC_SITE_URL: optional(process.env.NEXT_PUBLIC_SITE_URL, 'https://kenyanschools.org'),
 
   // Optional (GitHub links etc.)
   GITHUB_REPO: optional(process.env.GITHUB_REPO, 'codeAmani-Labs/kenyan-schools-org'), // Primary repo in org (copy at codeAmani-Solutions)

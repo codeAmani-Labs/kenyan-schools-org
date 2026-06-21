@@ -61,8 +61,8 @@ export async function POST(req: NextRequest) {
             <p>Your application has been <strong>approved</strong>.</p>
             <p>We value contributors who help maintain accurate, transparent public data for all Kenyan schools.</p>
             ${application.githubUsername ? `<p>You can collaborate on GitHub: <a href="https://github.com/codeAmani-Labs/kenyan-schools-org">https://github.com/codeAmani-Labs/kenyan-schools-org</a> (primary in org; copy at codeAmani-Solutions)</p>` : ''}
-            <p>If you opted in, you will appear on the public <a href="https://kenyanschool.org/contributors">Approved Contributors</a> page.</p>
-            <p>Start contributing by visiting <a href="https://kenyanschool.org/apply">the apply page</a> or opening issues/PRs.</p>
+            <p>If you opted in, you will appear on the public <a href="https://kenyanschools.org/contributors">Approved Contributors</a> page.</p>
+            <p>Start contributing by visiting <a href="https://kenyanschools.org/apply">the apply page</a> or opening issues/PRs.</p>
             <p>— CodeAmani Labs team (Founder: codeAmani-Solutions (Barnabas Waweru))</p>
             <p>Primary repo: https://github.com/codeAmani-Labs/kenyan-schools-org (copy in https://github.com/codeAmani-Solutions)</p>
           `,

@@ -279,7 +279,7 @@ export default function SchoolsIndexClient() {
                       s.tier||'',
                       s.gender||'',
                       s.cluster||'',
-                      `https://kenyanschool.org/schools/${s.slug}`
+                      `https://kenyanschools.org/schools/${s.slug}`
                     ]);
                     const csv = [headers.join(','), ...rows.map(r=>r.join(','))].join('\n');
                     const blob = new Blob([csv], {type:'text/csv'});
@@ -303,7 +303,7 @@ export default function SchoolsIndexClient() {
                       tier: s.tier,
                       gender: s.gender,
                       cluster: s.cluster,
-                      url: `https://kenyanschool.org/schools/${s.slug}`
+                      url: `https://kenyanschools.org/schools/${s.slug}`
                     }));
                     const blob = new Blob([JSON.stringify(data, null, 2)], {type:'application/json'});
                     const url = URL.createObjectURL(blob);

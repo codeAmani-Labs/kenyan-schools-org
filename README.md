@@ -13,7 +13,7 @@ Built and maintained by **[CodeAmani Labs](https://codeamanilabs.org/)**.
 - Open API, CLI, and MCP tools for data extraction
 - Modern, dynamic platform for public education data
 
-**Official site:** https://kenyanschool.org
+**Official site:** https://kenyanschools.org
 
 ---
 
@@ -85,8 +85,8 @@ Full details in the [tools/README.md](tools/README.md) and site footer.
 
 - **CLI**: `cd tools && node cli.js search ...`
 - **MCP Server**: `cd tools && node mcp-server.js` (stdio protocol)
-- **Apply to Contribute**: https://kenyanschool.org/apply (form + tracked with GitHub/email)
-- **Approved Contributors**: https://kenyanschool.org/contributors (opt-in public list)
+- **Apply to Contribute**: https://kenyanschools.org/apply (form + tracked with GitHub/email)
+- **Approved Contributors**: https://kenyanschools.org/contributors (opt-in public list)
 
 Built by CodeAmani Labs — Founder: codeAmani-Solutions (Barnabas Waweru).
 
@@ -151,7 +151,7 @@ Maintained with a focus on transparency and reliability.
 ---
 
 **Built and maintained by CodeAmani Labs**  
-https://codeamanilabs.org/ | GitHub Org: https://github.com/codeAmani-Labs | Founder: codeAmani-Solutions (Barnabas Waweru) | https://kenyanschool.org
+https://codeamanilabs.org/ | GitHub Org: https://github.com/codeAmani-Labs | Founder: codeAmani-Solutions (Barnabas Waweru) | https://kenyanschools.org
 
 For questions about the project or data: visit the site or open an issue on GitHub.
 
@@ -190,7 +190,7 @@ node data/convert-csv.js
 
 ## Contributing data / edits
 
-1. Browse https://kenyanschool.org
+1. Browse https://kenyanschools.org
 2. Open any school page → click **“Suggest an improvement”**
 3. Or use the dedicated [Contribute form](/contribute)
 4. Or open a Pull Request directly editing `web/data/schools.json`
@@ -204,7 +204,7 @@ All edits must include a verifiable source (URL preferred). This keeps the resou
 3. In Vercel, set the **Root Directory** to `web` if you imported the monorepo.
 4. Deploy.
 5. In Porkbun:
-   - Go to your domain `kenyanschool.org`
+   - Go to your domain `kenyanschools.org`
    - Add a `CNAME` record: `@` or `www` pointing at the Vercel target (e.g. `cname.vercel-dns.com`)
    - Or use Vercel’s nameservers for full management
 6. Add the custom domain in your Vercel project settings.
@@ -250,11 +250,11 @@ Questions / ideas? Open an issue.
 ### Public Data Extraction API
 The directory data is available via a public JSON API:
 
-- `GET https://kenyanschool.org/api/schools`
+- `GET https://kenyanschools.org/api/schools`
   - Query params: `q`, `county`, `tier`, `gender`, `limit`, `offset`, `sort`, `format=json|csv`
   - Example: `/api/schools?county=Nairobi&tier=National&limit=10`
 
-- `GET https://kenyanschool.org/api/counties` — List of all counties with counts
+- `GET https://kenyanschools.org/api/counties` — List of all counties with counts
 - `GET /schools` — Full alphabetical index page (excellent for search engine crawling and name discovery)
 
 Full OpenAPI-style usage is available by visiting the endpoints. The API always reflects the live (Neon) data.

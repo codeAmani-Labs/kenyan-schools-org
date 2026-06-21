@@ -46,7 +46,7 @@ export function makeGitHubIssueUrl(suggestion: {
     suggestion.message ? `**Additional context:** ${suggestion.message}` : '',
     ``,
     `---`,
-    `Submitted via kenyanschool.org community portal`,
+    `Submitted via kenyanschools.org community portal`,
     `Please review and open a PR against data if approved.`,
   ].filter(Boolean).join('\n');
 

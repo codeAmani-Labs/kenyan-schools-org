@@ -47,7 +47,7 @@ Available tools:
 - `list_counties()`
 - `get_directory_stats()`
 
-The MCP server talks to the live public API at https://kenyanschool.org/api (configurable via `KENYAN_SCHOOLS_API` env var).
+The MCP server talks to the live public API at https://kenyanschools.org/api (configurable via `KENYAN_SCHOOLS_API` env var).
 
 ## CLI Commands
 

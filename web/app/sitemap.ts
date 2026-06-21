@@ -5,7 +5,7 @@ import { School } from '@/lib/types';
 const schools = schoolsData as School[];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://kenyanschool.org';
+  const baseUrl = 'https://kenyanschools.org';
 
   // Static pages
   const staticRoutes: MetadataRoute.Sitemap = [

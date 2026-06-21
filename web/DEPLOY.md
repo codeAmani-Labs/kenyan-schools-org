@@ -91,11 +91,11 @@ npm run db:seed
 - Add all env vars in Vercel
 - Deploy
 
-## 6. Connect your Porkbun domain (kenyanschool.org)
+## 6. Connect your Porkbun domain (kenyanschools.org)
 
 ### Recommended: Simple CNAME (no nameserver change)
 
-1. In Porkbun DNS for `kenyanschool.org`:
+1. In Porkbun DNS for `kenyanschools.org`:
    - Add record:
      - Type: `CNAME`
      - Host: `@`   (or `www` if you prefer)
@@ -104,7 +104,7 @@ npm run db:seed
 
 2. In Vercel:
    - Go to your project → Settings → Domains
-   - Add `kenyanschool.org` and `www.kenyanschool.org`
+   - Add `kenyanschools.org` and `www.kenyanschools.org`
    - Follow the verification instructions (usually just waiting for DNS propagation)
 
 ### Alternative: Use Vercel nameservers (full control)

@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
               <blockquote>${motivation}</blockquote>
               ${experience ? `<p><strong>Experience:</strong></p><blockquote>${experience}</blockquote>` : ''}
               <p><strong>Application ID:</strong> ${application.id}</p>
-              <p>Review applications at: <a href="https://kenyanschool.org/admin/applications">/admin/applications</a></p>
+              <p>Review applications at: <a href="https://kenyanschools.org/admin/applications">/admin/applications</a></p>
             `,
           }),
         });

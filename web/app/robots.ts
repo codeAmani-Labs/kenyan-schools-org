@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
       //   allow: '/',
       // },
     ],
-    sitemap: 'https://kenyanschool.org/sitemap.xml',
-    host: 'https://kenyanschool.org',
+    sitemap: 'https://kenyanschools.org/sitemap.xml',
+    host: 'https://kenyanschools.org',
   };
 }

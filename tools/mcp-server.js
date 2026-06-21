@@ -30,7 +30,7 @@ const {
 // Use built-in fetch
 const fetch = globalThis.fetch;
 
-const API_BASE = process.env.KENYAN_SCHOOLS_API || 'https://kenyanschool.org/api';
+const API_BASE = process.env.KENYAN_SCHOOLS_API || 'https://kenyanschools.org/api';
 
 async function fetchJSON(url) {
   const res = await fetch(url);
